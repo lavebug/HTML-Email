@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office" lang="en" style="box-sizing: border-box;">
+  <head>
+    <title></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!--[if mso]><xml><o:OfficeDocumentSettings><o:PixelsPerInch>96</o:PixelsPerInch><o:AllowPNG/></o:OfficeDocumentSettings></xml><![endif]-->
+
+    <!--[if !mso]>
+
+<!-->
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&amp;display=swap" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;400;700;900&amp;display=swap" rel="stylesheet" type="text/css">
+
+    <!--<![endif]-->
+    <style>
+      * {
+        box-sizing: border-box
+      }
+      body {
+        margin: 0;
+        padding: 0
+      }
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: inherit !important
+      }
+      #MessageViewBody a {
+        color: inherit;
+        text-decoration: none
+      }
+      p {
+        line-height: inherit
+      }
+      .desktop_hide,
+      .desktop_hide table {
+        mso-hide: all;
+        display: none;
+        max-height: 0;
+        overflow: hidden
+      }
+      .image_block img+div {
+        display: none
+      }
+      @media(max-width:620px) {
+        .mobile_hide {
+          display: none
+        }
+        .row-content {
+          width: 100% !important
+        }
+        .stack .column {
+          width: 100%;
+          display: block
+        }
+        .mobile_hide {
+          min-height: 0;
+          max-height: 0;
+          max-width: 0;
+          overflow: hidden;
+          font-size: 0
+        }
+        .desktop_hide,
+        .desktop_hide table {
+          display: table !important;
+          max-height: none !important
+        }
+        .row-2 .column-1 .block-1.text_block td.pad {
+          padding: 50px 30px 0 !important
+        }
+        .row-3 .column-1 .block-1.text_block td.pad {
+          padding: 25px 30px 20px !important
+        }
+        .row-5 .column-1 .block-2.text_block td.pad {
+          padding: 5px 20px 15px !important
+        }
+        .row-5 .column-1 .block-1.text_block td.pad {
+          padding: 30px 20px 10px !important
+        }
+        .row-9 .column-1 .block-1.text_block td.pad {
+          padding: 35px 20px 30px !important
+        }
+        .row-12 .column-1 .block-2.text_block td.pad,
+        .row-17 .column-1 .block-2.text_block td.pad {
+          padding: 20px 15px 10px 10px !important
+        }
+        .row-12 .column-1 .block-1.image_block td.pad,
+        .row-17 .column-1 .block-1.image_block td.pad {
+          padding: 0 35px !important
+        }
+        .row-12 .column-1 .block-3.text_block td.pad,
+        .row-17 .column-1 .block-3.text_block td.pad {
+          padding: 15px 20px !important
+        }
+        .row-13 .column-1 .block-1.image_block td.pad {
+          padding: 35px 0 35px 25px !important
+        }
+        .row-13 .column-2 .block-1.text_block td.pad {
+          padding: 15px 20px 20px 10px !important
+        }
+        .row-18 .column-1 .block-1.image_block td.pad {
+          padding: 60px 0 60px 25px !important
+        }
+        .row-18 .column-2 .block-1.text_block td.pad {
+          padding: 15px 20px 25px 10px !important
+        }
+      }
+    </style>
+  </head>
+  <body style="box-sizing: border-box; margin: 0; background-color: #fff; padding: 0; -webkit-text-size-adjust: none; text-size-adjust: none;"><span style="color:transparent;visibility:hidden;display:none;opacity:0;height:0;width:0;font-size:0;"></span><img src="https://links.email.getquip.com/e/eo?_t=a20fc45cad48484bb7c12f6646447a5c&amp;_m=ec3117c59d2d40078e50eef55de22dbe&amp;_e=P_JYXIqN7qe29hI5b16gouKft_LqNK4lEaSa0cSlWz0pPQ1c9c51-TWvetmR0IYk4nwfae2TTbhN6YVKN5pOFjhLxE3sYeHKe-ry2AK3xEMvq0KxWN3sorwl1u8ViMXJC2wsYrqEZBQqiY2MKCzIkA%3D%3D" style="border:0;width:1px;height:1px;border-width:0px!important;display:none!important;line-height:0!important;" width="1" height="1" />
+    <table class="nl-container" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #fff;" bgcolor="#fff">
+      <tbody style="box-sizing: border-box;">
+        <tr style="box-sizing: border-box;">
+          <td style="box-sizing: border-box;">
+            <table class="row row-1" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #fff; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#fff">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="100%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 15px; padding-top: 5px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="html_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box;">
+                                  <div style="box-sizing: border-box; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; text-align: center;" align="center">
+                                    <table width="100%" border="0" cellpadding="0" cellspacing="0" style="mso-table-lspace:0;mso-table-rspace:0;word-break:break-word">
+                                      <tbody>
+                                        <tr>
+                                          <td>
+                                            <div style="display: none; max-height: 0px; overflow: hidden;">&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌ </div>
+                                          </td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <table class="html_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box;">
+                                  <div style="box-sizing: border-box; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; text-align: center;" align="center">
+
+                                    <!-- many email clients only allow style tags in the <head> element so for snippets, using inline style instead of assuming parent template contains the styles //-->
+                                    <div class="top-header" style="padding-bottom:5px; margin:0px 0px; text-align:center"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2pQ6ZrzNnd_zeNekGRCwgsOympxkoadl5swu5im_L4bAmFHPIIdE8fLooaQvUJWDpHG03EGcLww1B5p6Rcl2gL8_vS3esUSCOFcuh_ibAuC6cWS3hux4hryDq4KmaAb1QOs7R89Uept6M_rFpt7mNgblrBqFKD4S_tRfyfKLESm4KdK2wbXFrBGzEaoQ7tDiAYaGrmONZalOaMK2JK7kPt2dkNzFlqkMyCGgzhe0vgshT7ubSWW9aJ66ZoItrXvsBf1HSXMIe_uigamHRVFHdh8MT4n887E6tmCOpsidcyKuiwmlA9NyCWF_noWUGjm_9cjrhkm2AbphqQcSP9VoIDg%3D"><img style="margin: auto auto; display: block;height: auto !important;" width="111px" alt="quip logo" src="https://d2axdqolvqmdvx.cloudfront.net/ae45edf4-74c3-49c3-b206-003229585018/f7dfd9ad85914181aa092048c5c361ad.png" /></a> </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-2 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #16b79d; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#16b79d">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="100%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 10px; padding-left: 45px; padding-right: 45px; padding-top: 25px;">
+                                  <div style="box-sizing: border-box; font-family: Arial,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Poppins,Roboto,Arial,sans-serif; mso-line-height-alt: 21.6px; color: #fff; line-height: 1.8;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; text-align: center; font-size: 28px; mso-line-height-alt: 50.4px; letter-spacing: normal;"> <strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 28px;">Happy&nbsp;<span style="box-sizing: border-box; background-color: #34e0be;"><span style="box-sizing: border-box;">Women's</span></span></span></strong></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; text-align: center; font-size: 28px; mso-line-height-alt: 50.4px; letter-spacing: normal;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 28px;">History Month!&nbsp;</span></strong></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <table class="image_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 25px; width: 100%; padding-right: 0; padding-left: 0;" width="100%">
+                                  <div class="alignment" align="center" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 120px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXCnNQOQiAR5HvU99vtLHmVn-kQxECQ5uWRIaFrHSmz3UbxlB8PPYxVdL8msvUXGKQTj_-DrPTmbq_EI_HKD_NT1G-YAEWfcKuaK-EZLaJJTQCug2WHbGtUoAEgUwhRVMPQgveKZvvuuhTt6cJWKwrDtj3EElrhf2DsoQyyuhAGsc8bOfPUSGP9cmMup0Q3hlChWnN_tF0fl32JsjAMVorR0GNIOaMDluJR3fnw75JNHApoz-UrOtnobWu84eeDUZMHGtIi7vVBakwCdjipcWa7d_nNNFVyE_aUTce1bRLxdvw%3D%3D" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Promotional%20Blasts/2023/March/Women%27s%20Month/202303_LIF_WomensMonth_EmojiBadge.gif" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="120" alt="Happy Women's  History Month!" title="Happy Women's  History Month!"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-3 desktop_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden; background-color: #16b79d; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#16b79d">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="100%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 15px; padding-left: 45px; padding-right: 45px; padding-top: 40px;">
+                                  <div style="box-sizing: border-box; font-family: Arial,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Poppins,Roboto,Arial,sans-serif; mso-line-height-alt: 18px; color: #fff; line-height: 1.5;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; text-align: center; font-size: 22px; mso-line-height-alt: 33px; letter-spacing: normal;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 22px;">Happy&nbsp;<span style="box-sizing: border-box; background-color: #34e0be;">Women's</span></span></strong></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; text-align: center; font-size: 22px; mso-line-height-alt: 33px; letter-spacing: normal;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 28px;"><span style="box-sizing: border-box; font-size: 22px;">History Month</span>!</span></strong></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <table class="image_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 25px; width: 100%; padding-right: 0; padding-left: 0;" width="100%">
+                                  <div class="alignment" align="center" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 120px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXCnNQOQiAR5HvU99vtLHmVn-kQxECQ5uWRIaFrHSmz3UbxlB8PPYxVdL8msvUXGKQTj_-DrPTmbq_EI_HKD_NT1G-YAEWfcKuaK-EZLaJJTQCug2WHbGtUoAEgUwhRVMPR-Vh6Lm7VVAzqa37lszArOl4kFdNHi75Z_A3AF1jma5CRYfelrpbBknmfZJMwL8YckLUtdFxd-Y4YV_bbOuN08Bq_VXSJ23kkoj1ZV9av1HzuJRg1bhkfqR8jTqGQuhEbJSCFhFab6uZdw63zvZU2REFk-ZcKDmmbs2cV9ba1T1Q%3D%3D" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Promotional%20Blasts/2023/March/Women%27s%20Month/202303_LIF_WomensMonth_EmojiBadge.gif" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="120" alt="Happy Women's  History Month!" title="Happy Women's  History Month!"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-4 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #eaffeb; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#eaffeb">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="16.666666666666668%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="empty_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box;">
+                                  <div style="box-sizing: border-box;"></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td class="column column-2" width="66.66666666666667%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 10px; padding-top: 10px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 10px; padding-left: 45px; padding-right: 45px; padding-top: 45px;">
+                                  <div style="box-sizing: border-box; font-family: Arial,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 14px; font-family: Poppins,Roboto,Arial,sans-serif; mso-line-height-alt: 16.8px; color: #054040; line-height: 1.2;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; text-align: center; font-size: 24px; mso-line-height-alt: 28.799999999999997px;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 24px;">Women stay winning&nbsp;</span></strong></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; text-align: center; font-size: 24px; mso-line-height-alt: 28.799999999999997px;"> <strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 24px;">(and brushing!)&nbsp;</span></strong></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <table class="text_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 45px; padding-left: 5px; padding-right: 5px; padding-top: 5px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 14px; font-family: Lato,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21px; color: #054040; line-height: 1.5;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; text-align: center; mso-line-height-alt: 24px; letter-spacing: normal;"><span style="box-sizing: border-box; font-size: 16px;">Our quip app stats report that female quipsters know their oral care! Keep up the good work 🙌</span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td class="column column-3" width="16.666666666666668%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="empty_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box;">
+                                  <div style="box-sizing: border-box;"></div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-5 desktop_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden; background-size: auto;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden; background-size: auto; background-color: #efe; color: #000; border-radius: 0; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="100%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 5px; padding-top: 5px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 15px; padding-left: 45px; padding-right: 45px; padding-top: 40px;">
+                                  <div style="box-sizing: border-box; font-family: Arial,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 14px; font-family: Poppins,Roboto,Arial,sans-serif; mso-line-height-alt: 16.8px; color: #054040; line-height: 1.2;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; text-align: center; font-size: 16px; mso-line-height-alt: 19.2px;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 16px;">Women stay winning&nbsp;</span></strong></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; text-align: center; font-size: 16px; mso-line-height-alt: 19.2px;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 16px;">(and brushing!)&nbsp;</span></strong></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <table class="text_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 40px; padding-left: 5px; padding-right: 5px; padding-top: 5px;">
+                                  <div style="box-sizing: border-box; font-family: sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 14px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21px; color: #054040; line-height: 1.5;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; text-align: center; mso-line-height-alt: 18px; letter-spacing: normal;"><span style="box-sizing: border-box; font-size: 12px;">Our quip app stats report that female quipsters know their oral care! Keep up the good work, ladies 🙌</span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-6" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="50%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; width: 100%;" width="100%">
+                                  <div class="alignment" align="right" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 300px;"> <a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXCK9NuCdZEzVRRDi8FZ_Z1y3Ip1WRptmbB2f-oUwUQ_Hdby0de3AhaTHcqQ9m9Z6TQcDvggTm1T7yFs0b3oROOBDAH2DjnQrqMs8NPsJpSR-uDKvSVRLX4wuD7Zzga7ppsBAsdte36n9_LE13P-1OziG-ILLYxy6iaso4CPq5rr09Gg369QB3VizOSzvr5xsbDVHYophQ4htSwf0evbea_g2Y2Gf4XIfR0uTAW2NdVWVl70TQJv0_DkWKhRsMaEv9DzmCB0QM_W0aoJ2a2QzosssPfFJbjUjo90YQe9Prf7rCPpHGnijxZ5iXTiz06P7NE%3D" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Promotional%20Blasts/2024/March/Women%27s%20Month/202403_LIF_WomensMonth_Box1_WText_NEW.jpg" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="300" alt="Brush" title="Brush"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td class="column column-2" width="50%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; width: 100%;" width="100%">
+                                  <div class="alignment" align="left" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 300px;"> <a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXCKdnziEjxZ5tErgmqz4wgKURKtcmGyN__fsTx_2_sk6FlxnUv1P4kpz0FE0ihnE4r7bTmzKZ-PmYZjA9QRpSswCEAkmorTO4cAcudLqLZzBNbmJG-aj9e6OyD4Qh_5OC6D80dJ7BxnP9ZakVouirEE7V5i3jZvJOIrv42uiXIER_b8DQ79U5s6fYXZG7foH-qnDQ6Pqo8yM8gndzDHZvVbOmOT09KW_e50Q2tHIaLPY_GKo2_zLdUVnLLmfaloe6vN2rg91fPqO4WHw4MzWN4rTZb0XEBcLb6mPKk-E4HGKQ%3D%3D" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Promotional%20Blasts/2024/March/Women%27s%20Month/202403_LIF_WomensMonth_Box2_WText_NEW.jpg" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="300" alt="Floss" title="Floss"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-7" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="50%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; width: 100%;" width="100%">
+                                  <div class="alignment" align="center" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 300px;"> <a href="https://links.email.getquip.com/a/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXAo4SpkCDOV0xG4qHAyvnBA3Ec2jGGoolpLAmN1OgOdAuGsvfrnw89T3RyeB8BN3Tit81WsR10DcdvHFwwvcBfzBlXi2U1F8sGdqmvst4sYSAVIt92qK5yFY46FSlqVzW44CFc7pciZ5F7hEdVT5UPu9oQ2pAanbtGp9Y4xIWbM1d-uVZR_9uDwdE_gPTF8So4RPlO_Zcwi9Cpk0KhRM_w3W1HlKKCK9YD6HZyFoKmfBf5488ETb-vlRMeI3DHl7Gu1Dq76nPUkAZxIorkoxLsurawiI68wmtGbZzoXmGDvqJzsj2VMIgbkHTOC8A1CQ16ey4XAUv7elMvbxcxxqYu6" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Promotional%20Blasts/2023/March/Women%27s%20Month/202303_LIF_WomensMonth_Box3_WText.png" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="300" alt="Brush Head" title="Brush Head"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td class="column column-2" width="50%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; width: 100%;" width="100%">
+                                  <div class="alignment" align="center" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 300px;"> <a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXDEcDVnzTpkoKjQQFco-IDDWqvpF9UYdZJl2nD3dzN6ckmwn8P9wmZ29yriACtLUCYDajfRZH0WeGsxQTt7yt2MoAWg_Cio99K6RcDRP_1SnXCl0nXVVPSdxLMmriouMyNh1mF1JMGZ8Gwl-6lbu_JCH6C_s2Yky0kuBuhowfy59KnE8Ti9r3UMpa0KlvxlOItC0e_El6XDeaC04kMFH2Jnmavs0KeQC5_F-h1ODZc-8YD79hvsPyqiZhybAXLErW3xN1KYqxy-zAQcTlIeNAw_B_8PLdfV_qRECHCcLpuMAw%3D%3D" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Promotional%20Blasts/2023/March/Women%27s%20Month/202303_LIF_WomensMonth_Box4_WText.png" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="300" alt="Dentist" title="Dentist"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-8 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #fff;" bgcolor="#fff">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #efe; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="100%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 5px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 30px; padding-left: 30px; padding-right: 30px; padding-top: 35px;">
+                                  <div style="box-sizing: border-box; font-family: Arial,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Poppins,Roboto,Arial,sans-serif; mso-line-height-alt: 18px; color: #054040; line-height: 1.5;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; text-align: center; mso-line-height-alt: 33px;"><span style="box-sizing: border-box; font-size: 22px;"><strong style="box-sizing: border-box;">Let’s talk success, self-care, & flossing habits with a couple of quip’s leading ladies</strong></span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-9 desktop_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden; background-color: #fff;" bgcolor="#fff">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden; background-color: #efe; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="100%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 5px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 30px; padding-left: 20px; padding-right: 20px; padding-top: 35px;">
+                                  <div style="box-sizing: border-box; font-family: Arial,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Poppins,Roboto,Arial,sans-serif; mso-line-height-alt: 18px; color: #054040; line-height: 1.5;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; text-align: center; mso-line-height-alt: 27px;"> <span style="box-sizing: border-box; font-size: 18px;"><strong style="box-sizing: border-box;">Let’s talk success, self-care, & flossing habits with a couple of quip’s leading ladies</strong></span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-10 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #efe; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="50%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-left: 25px; width: 100%; padding-right: 0;" width="100%">
+                                  <div class="alignment" align="left" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 240px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXB1QhlPbx9eniOFgFX2vJ98vt91imJAWBlPimsO8k_f-D3L9TdMXU7JWZVbX7Z84e3gGqcijzt6DCbZbv_xJXwAWplGUtdUWijD4bwovpjoz5N6SCGBPEYtBW2zRKKHDqe-MRjOI1TmgSMFFkPBQ4i59aHshr7QIgcjYYw_8ZufMP4kXxst197hwEadVd4Aa0aO600f6BvPrnBG2gklDsX9_n5gou2Nf2_0iauMi9FhftCgNoxhUiLjWg7siKZi5-Eq8buAi7nYH0prGnx3UApitZ0lPF0Rx9rTHAPlKqWYFoXttwHY-oCAsD3FDgpUc77jogfYRedWrfoMJMp5BT4hxcxiUR86Vyuhst0Gku_kXbhdXNWVKfCtBDFBqx-iMaHYhHC4BjqHk7shpMAwqYXs" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Promotional%20Blasts/2023/March/Women%27s%20Month/202303_LIF_WomensMonth_MichaelaHeadshot.png" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="240" alt="Michaela" title="Michaela"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td class="column column-2" width="50%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 20px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 25px; padding-right: 20px; padding-top: 60px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 18px; color: #054040; line-height: 1.5;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 18px; mso-line-height-alt: 36px;"><span style="box-sizing: border-box; font-size: 24px;"><strong style="box-sizing: border-box;">Michaela</strong></span></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 18px; mso-line-height-alt: 30px;"><span style="box-sizing: border-box; font-size: 20px;"><em style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 18px;">Personal Care Program Lead, Business Operations</span></em></span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-11 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #efe; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="100%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 5px; padding-left: 35px; padding-right: 35px; padding-top: 20px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21.6px; color: #054040; line-height: 1.8;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 27px;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 15px;">We admire how much you cheer on your team. Could you share a bit on how you inspire others to take action?&nbsp;</span></strong></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <table class="text_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 10px; padding-left: 35px; padding-right: 35px; padding-top: 5px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21.6px; color: #054040; line-height: 1.8;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 27px;"> <span style="box-sizing: border-box; font-size: 15px;"><em style="box-sizing: border-box;">I&nbsp;like to remind people that it’s okay to build the plane as you fly it. I don’t believe in waiting to be “ready” — I advise everyone to just go for it. I constantly tell the women in my life to trust themselves.</em></span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-12 desktop_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden; background-color: #efe; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="100%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-left: 25px; width: 100%;" width="100%">
+                                  <div class="alignment" align="center" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 575px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXB1QhlPbx9eniOFgFX2vJ98vt91imJAWBlPimsO8k_f-D3L9TdMXU7JWZVbX7Z84e3gGqcijzt6DCbZbv_xJXwAWplGUtdUWijD4bwovpjoz5N6SCGBPEYtBW2zRKKHDqe-MRjOI1TmgSMFFkPBQ4i59aHshr7QIgcjYYw_8ZufMP4kXxst197hwEadVd4Aa0aO600f6BvPrnBG2gklDsX9_n5gou2Nf2_0iauMi9FhfmMiiFmFCOFzj_Nb9CzcHIaGHAMyHOtgZczdzC0TckUqoNZuHgkP1C99O6jGoHbLPDtQA9-GHt96hZLUadRFexlz7cRAxOOsgzZefJAE_hsjVbss3GCtKDkfrBcOjlvj8T_PJQNwrZbWfTTy0zCOidodJf_BksybMZtWDMfE4eEO" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Mouthoff/062/202303_Mouthoff_MichaelaL_Beat2.png" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="575" alt="Michaela" title="Michaela"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <table class="text_block block-2 desktop_hide" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-left: 10px; padding-right: 15px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 18px; color: #054040; line-height: 1.5;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; text-align: center; mso-line-height-alt: 30px;"><span style="box-sizing: border-box; font-size: 20px;"><strong style="box-sizing: border-box;">Michaela</strong></span></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; text-align: center; mso-line-height-alt: 22.5px;"><em style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 15px;">Personal Care Program Lead, </span></em></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; text-align: center; mso-line-height-alt: 22.5px;"><em style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 15px;">Business Operations</span></em></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <table class="text_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 15px; padding-left: 25px; padding-right: 60px; padding-top: 15px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21.6px; color: #054040; line-height: 1.8;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 27px;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 15px;">We admire how much you cheer on your team. Could you share a bit on how you inspire others to take action?&nbsp;</span></strong></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 21.6px;">&nbsp;</p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 27px;"> <span style="box-sizing: border-box; font-size: 15px;"><em style="box-sizing: border-box;">I&nbsp;like to remind people that it’s okay to build the plane as you fly it. I don’t believe in waiting to be “ready” — I advise everyone to just go for it. I constantly tell the women in my life to trust themselves.</em></span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-13 desktop_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden; background-color: #efe; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="50%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-left: 25px; width: 100%; padding-right: 0;" width="100%">
+                                  <div class="alignment" align="left" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 174px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXB1QhlPbx9eniOFgFX2vJ98vt91imJAWBlPimsO8k_f-D3L9TdMXU7JWZVbX7Z84e3gGqcijzt6DCbZbv_xJXwAWplGUtdUWijD4bwovpjoz5N6SCGBPEYtBW2zRKKHDqe-MRjOI1TmgSMFFkPBQ4i59aHshr7QIgcjYYw_8ZufMP4kXxst197hwEadVd4Aa0aO600f6BvPrnBG2gklDsX9_n5gou2Nf2_0iauMi9Fhftou35GrHoK6OdlU2SCynvCay4c0-JYfX4LjFDUTkv-DauoP7WDOmUtnWntyd5sWTZADIq2AXNJYjfty-LNN3Q-vClQBYPCgwpnNHaWzWX4Uc1sibFbAPG89ioFcsyUeMstg-aHhsBxYCMcW-VLGWaVZCDdAH8WqBhgAV2hhxqLJ" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Promotional%20Blasts/2024/March/Women%27s%20Month/202403_LIF_WomensMonth_CopperBrushBeat_NEW.png" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="174" alt="Electric Brush" title="Electric Brush"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td class="column column-2" width="50%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 25px; padding-left: 40px; padding-right: 40px; padding-top: 30px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21.6px; color: #054040; line-height: 1.8;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 28.8px;"> <span style="box-sizing: border-box; font-size: 16px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXB1QhlPbx9eniOFgFX2vJ98vt91imJAWBlPimsO8k_f-D3L9TdMXU7JWZVbX7Z84e3gGqcijzt6DCbZbv_xJXwAWplGUtdUWijD4bwovpjoz5N6SCGBPEYtBW2zRKKHDqe-MRjOI1TmgSMFFkPBQ4i59aHshr7QIgcjYYw_8ZufMP4kXxst197hwEadVd4Aa0aO600f6BvPrnBG2gklDsX9_n5gou2Nf2_0iauMi9FhfrUHMtPteF_kyXD93-9y1COCopcMGJQYZqzRsPpgJhbnBJmP-yBVnuC-sd7zP-W1zxj5FYYU3flg_EG7OnO5MSDfL7IFPmi09rIur4WBeXJCPHcHgfXcwIM7UXPvVIIOXAWlqef_Bj6wg4Xp5lxy8VA5B64axYEvsCsHbgGF79nv" target="_blank" style="box-sizing: border-box; text-decoration: underline; color: #53c2b5;" rel="noopener">Electric Brush</a></span><span style="box-sizing: border-box; font-size: 16px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXCoTP440wOJdM2SeW6hHyGmv4k7BLkO7pBSom5Ge8KlstQCVq6rYkK_ROGheGhiQir3Pu5z7to1B2vbRYJQ8raVvsdg3U1ddEQTjjezVXmb277Iz80qx4NIFFkZ9AP9-hK9sSx57qhlFh1m08ZrORXzzPaTbK4caktDnLGAAKFsfY-khfAV7epVj_zyRlDA1yw715uz6G1gmKPUqv5pBimC_NCttAh7xi4i25PkSW1kdCQx9sjLrJQDZkd22XE8AVdqnvRoY9j0P3rG3-JmipdnGoxoQSUdsWGW9XVSVrPPt27KcG83u0y-cM3VoW9peQE%3D" style="box-sizing: border-box; text-decoration: underline; color: #53c2b5;"></a></span></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 21.6px;"> <span style="box-sizing: border-box; font-size: 12px;"><em style="box-sizing: border-box;">I’m a huge fan of the original quip brush. The brushing guidance and automatic refills have improved my oral care game 100%!</em></span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-14 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #efe; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="33.333333333333336%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 35px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; width: 100%; padding-right: 0; padding-left: 0;" width="100%">
+                                  <div class="alignment" align="right" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 176px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXB1QhlPbx9eniOFgFX2vJ98vt91imJAWBlPimsO8k_f-D3L9TdMXU7JWZVbX7Z84e3gGqcijzt6DCbZbv_xJXwAWplGUtdUWijD4bwovpjoz5N6SCGBPEYtBW2zRKKHDqe-MRjOI1TmgSMFFkPBQ4i59aHshr7QIgcjYYw_8ZufMP4kXxst197hwEadVd4Aa0aO600f6BvPrnBG2gklDsX9_n5gou2Nf2_0iauMi9FhfomxOnoVXrfvsZn0_-QNWTfE2a4sr3ApAzqflRu38ATIdvKnwQ4UMOQVbAD3I5ftC5eBofQiSaRTImi8cYTdZ7vAMg23dLpNU7pmZorupOqCn4Xkoz2gKhysavG3_WKsznxA9Hcg3bRfvh170SuODdIptjSOfaZYY7YnTHqxZA6P" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Promotional%20Blasts/2024/March/Women%27s%20Month/202403_LIF_WomensMonth_CopperBrushBeat_NEW.png" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="176" alt="Electric Brush" title="Electric Brush"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td class="column column-2" width="66.66666666666667%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 15px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 25px; padding-left: 20px; padding-right: 40px; padding-top: 30px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21.6px; color: #054040; line-height: 1.8;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 28.8px;"> <span style="box-sizing: border-box; font-size: 16px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXB1QhlPbx9eniOFgFX2vJ98vt91imJAWBlPimsO8k_f-D3L9TdMXU7JWZVbX7Z84e3gGqcijzt6DCbZbv_xJXwAWplGUtdUWijD4bwovpjoz5N6SCGBPEYtBW2zRKKHDqe-MRjOI1TmgSMFFkPBQ4i59aHshr7QIgcjYYw_8ZufMP4kXxst197hwEadVd4Aa0aO600f6BvPrnBG2gklDsX9_n5gou2Nf2_0iauMi9FhfkT3-JePb5bZXv-3qB6tXb9l0kjvVX24rvSRwL4A4MeaA8WIJPST8TmkT9nd_9tAbA7nhOSmGDavo21rGe1t9V8j-zrXwdaPNgCVet17vamUEuAwPjkoHsu9k3vSOfmf7X6DxKTsyMiRSWcWBYf0--isdVAjAS9kAyzRhCjNbw9O" target="_blank" style="box-sizing: border-box; text-decoration: underline; color: #53c2b5;" rel="noopener">Electric Brush</a></span><span style="box-sizing: border-box; font-size: 16px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXCoTP440wOJdM2SeW6hHyGmv4k7BLkO7pBSom5Ge8KlstQCVq6rYkK_ROGheGhiQir3Pu5z7to1B2vbRYJQ8raVvsdg3U1ddEQTjjezVXmb277Iz80qx4NIFFkZ9AP9-hK9sSx57qhlFh1m08ZrORXzzPaTbK4caktDnLGAAKFsfaw1z4vnSm2LtM4TyXTlEb5CrDFpLuiJEhyDqu-a9ugSBUa9c4Xm1KP_OzeEYMOM51GjbQCAlPk2vKZsVoRpLeU8eesF-l5JJZsLNlL5JK0vUdeoVClJ2ci8pmjvTNywXCDi-W_z8QVccD80Ykvd2sg%3D" style="box-sizing: border-box; text-decoration: underline; color: #53c2b5;"></a></span></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 27px;"> <em style="box-sizing: border-box;">I’m a huge fan of the original quip brush. The brushing guidance and automatic refills have improved my oral care game 100%!</em></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-15 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #efe; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="50%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-left: 25px; width: 100%; padding-right: 0;" width="100%">
+                                  <div class="alignment" align="left" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 240px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXBioumwPa5U5L0ywujk6WZKqrn1MV01LpakwwiA9pF3p1iifN8OndnVr1zvp6M5-oI5W7fDazNdiKx3TrElcJi6my8xu7Ql2TBYjz05ywTkzba3vbh3IUOnFLVZrsY8H-3T_FhO4EbeuHZhY7aC0DQNgPteWSU2MhBsfDUa1JfSAmiQuQHyG5G8heBLyFwWQp6b2O9CqkmuAcTcoyH9P43PZSMuZrVu6lJwBttUqPEOtK62wUpJbO9Da52AhOmo3tUCCB_Iqf3BEYZvnpVx5qe1femiovy35PpmOXulgbMINFQeVM77HaN-5YFxFQ5wGHwQXIumOFq413X5mm99MKGhI53zsaRryVBpEhLk49_XTw2x2PqybIkC6Z-ZxPneUoA%3D" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Promotional%20Blasts/2023/March/Women%27s%20Month/202303_LIF_WomensMonth_MeredithHeadshot.png" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="240" alt="Meredith" title="Meredith"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td class="column column-2" width="50%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 20px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 25px; padding-right: 20px; padding-top: 60px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 18px; color: #054040; line-height: 1.5;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 18px; mso-line-height-alt: 36px;"><span style="box-sizing: border-box; font-size: 24px;"><strong style="box-sizing: border-box;">Meredith</strong></span></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 18px; mso-line-height-alt: 30px;"><span style="box-sizing: border-box; font-size: 20px;"><em style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 18px;">Vice President of Sales</span></em></span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-16 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #efe; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="100%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 5px; padding-left: 35px; padding-right: 35px; padding-top: 20px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21.6px; color: #054040; line-height: 1.8;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 27px;"><strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 15px;">Part of your role as a leader is to foster an enjoyable and inclusive work environment. How do you make sure everyone feels safe and seen?&nbsp;</span></strong></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <table class="text_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 10px; padding-left: 35px; padding-right: 35px; padding-top: 5px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21.6px; color: #054040; line-height: 1.8;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 27px;"> <span style="box-sizing: border-box; font-size: 15px;"><em style="box-sizing: border-box;">I strive to lead by example. While I would never pretend to be perfect, I do make an effort to work as hard as I expect others to, and try to exercise courage by welcoming open dialogue and authenticity in every conversation.</em></span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-17 desktop_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden; background-color: #efe; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="100%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-left: 25px; width: 100%;" width="100%">
+                                  <div class="alignment" align="center" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 575px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXBioumwPa5U5L0ywujk6WZKqrn1MV01LpakwwiA9pF3p1iifN8OndnVr1zvp6M5-oI5W7fDazNdiKx3TrElcJi6my8xu7Ql2TBYjz05ywTkzba3vbh3IUOnFLVZrsY8H-3T_FhO4EbeuHZhY7aC0DQNgPteWSU2MhBsfDUa1JfSAmiQuQHyG5G8heBLyFwWQp6b2O9CqkmuAcTcoyH9P43PZSMuZrVu6lJwBttUqPEOtBrxOJTZZFw6Def2wMDD-mGX6Xyi8xdoRxspHJH5ct9-LqiAeqfd4XnTLSWd_At0aRPk90xV4dMEfdEHCdwQ_7LKUpefpYQv3uuq1oDvkcsX-QTyvq6ffN0QKTCCAinQ-amnFToT2lrMS6oVPNCXizA%3D" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Mouthoff/062/202303_Mouthoff_MeredithG_Beat3.png" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="575" alt="Meredith" title="Meredith"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <table class="text_block block-2 desktop_hide" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-left: 10px; padding-right: 15px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21.6px; color: #054040; line-height: 1.8;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; text-align: center; mso-line-height-alt: 36px;"><span style="box-sizing: border-box; font-size: 20px;"><strong style="box-sizing: border-box;">Meredith</strong></span></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; text-align: center; mso-line-height-alt: 27px;"><em style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 15px;">Vice President of Sales</span></em></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <table class="text_block block-3" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 15px; padding-left: 25px; padding-right: 60px; padding-top: 15px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21.6px; color: #054040; line-height: 1.8;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 27px;"> <strong style="box-sizing: border-box;"><span style="box-sizing: border-box; font-size: 15px;">Part of your role as a leader is to foster an enjoyable and inclusive work environment. How do you make sure everyone feels safe and seen?&nbsp;</span></strong></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 21.6px;">&nbsp;</p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 15px; mso-line-height-alt: 27px;"> <span style="box-sizing: border-box; font-size: 15px;"><em style="box-sizing: border-box;">I strive to lead by example. While I would never pretend to be perfect, I do make an effort to work as hard as I expect others to, and try to exercise courage by welcoming open dialogue and authenticity in every conversation.</em></span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-18 desktop_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden; background-color: #efe; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="50%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 10px; padding-left: 25px; padding-top: 10px; width: 100%; padding-right: 0;" width="100%">
+                                  <div class="alignment" align="left" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 174px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXBioumwPa5U5L0ywujk6WZKqrn1MV01LpakwwiA9pF3p1iifN8OndnVr1zvp6M5-oI5W7fDazNdiKx3TrElcJi6my8xu7Ql2TBYjz05ywTkzba3vbh3IUOnFLVZrsY8H-3T_FhO4EbeuHZhY7aC0DQNgPteWSU2MhBsfDUa1JfSAmiQuQHyG5G8heBLyFwWQp6b2O9CqkmuAcTcoyH9P43PZSMuZrVu6lJwBttUqPEOtJnNbCdvGhHZfZ8j6zoYQtXLvShkrtYBI-H24bb3Gjn6DGDSNboG5Q8np8_t4pApw9WOpTDa52vmZXWKT55mXsWPcaLWPw-uc94ixaaum_KKVm0uu5GXyaEyk8ULRCXvcJ_RVgptlamZHqTD1X-L0Vc%3D" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Promotional%20Blasts/2023/March/Women%27s%20Month/202303_LIF_WomensMonth_MeredithProduct.png" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="174" alt="Rechargeable Cordless Water Flosser" title="Rechargeable Cordless Water Flosser"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td class="column column-2" width="50%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word; mso-hide: all; display: none; max-height: 0; overflow: hidden;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 25px; padding-left: 40px; padding-right: 40px; padding-top: 15px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21.6px; color: #054040; line-height: 1.8;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; mso-line-height-alt: 28.8px;"> <span style="box-sizing: border-box; font-size: 16px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXBioumwPa5U5L0ywujk6WZKqrn1MV01LpakwwiA9pF3p1iifN8OndnVr1zvp6M5-oI5W7fDazNdiKx3TrElcJi6my8xu7Ql2TBYjz05ywTkzba3vbh3IUOnFLVZrsY8H-3T_FhO4EbeuHZhY7aC0DQNgPteWSU2MhBsfDUa1JfSAmiQuQHyG5G8heBLyFwWQp6b2O9CqkmuAcTcoyH9P43PZSMuZrVu6lJwBttUqPEOtKoIr7hFDNBOGwxi2wEj0fc9lPaTKfSsdX20ugSXTE2BrznKNWub4TUQ5sYC_bD6vD_uR7wSv1ET3nRzSa3zotGSMgOq4F2NLHL317n_RlPGhrv8j1EpCLtgSAGIPuLypf99UF8ALWB_ke5MMZ5Lo2s%3D" target="_blank" style="box-sizing: border-box; text-decoration: underline; color: #53c2b5;" rel="noopener">Rechargeable Cordless Water Flosser</a></span></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; mso-line-height-alt: 21.6px;"> <span style="box-sizing: border-box; font-size: 12px;"><em style="box-sizing: border-box;">As someone who has been a bit “flossing challenged” in the past, using a Water Flosser has changed the game for me. I don’t have a ton of counter space in my bathroom, so I appreciate how sleek it is to keep out.</em></span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-19 mobile_hide" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #efe; border-radius: 0; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#efe">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="33.333333333333336%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 40px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="image_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 10px; padding-top: 10px; width: 100%; padding-right: 0; padding-left: 0;" width="100%">
+                                  <div class="alignment" align="right" style="box-sizing: border-box; line-height: 10px;">
+                                    <div style="box-sizing: border-box; max-width: 176px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXBioumwPa5U5L0ywujk6WZKqrn1MV01LpakwwiA9pF3p1iifN8OndnVr1zvp6M5-oI5W7fDazNdiKx3TrElcJi6my8xu7Ql2TBYjz05ywTkzba3vbh3IUOnFLVZrsY8H-3T_FhO4EbeuHZhY7aC0DQNgPteWSU2MhBsfDUa1JfSAmiQuQHyG5G8heBLyFwWQp6b2O9CqkmuAcTcoyH9P43PZSMuZrVu6lJwBttUqPEOtDJ1N-7wDEhtkw0JMHLZ6GKZ2sn-peLgJNT9wPSoneMnGvq1JjCKlxosCiEZ0niFwhXukdY8b4HfpMaiTY_7GTD4qJyiRXap9lzIn7_q3cWFn_MLKUP7emFQtYMbNej6eHLJmJLg50tcYXpotrzUqf0%3D" target="_blank" style="box-sizing: border-box; outline: none;" tabindex="-1"><img src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/669d5713-9b6a-46bb-bd7e-c542cff6dd6a/a20fc45cad48484bb7c12f6646447a5c/Promotional%20Blasts/2023/March/Women%27s%20Month/202303_LIF_WomensMonth_MeredithProduct.png" style="box-sizing: border-box; display: block; height: auto; border: 0; width: 100%;" width="176" alt="Rechargeable Cordless Water Flosser" title="Rechargeable Cordless Water Flosser"></a></div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                          <td class="column column-2" width="66.66666666666667%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; padding-bottom: 40px; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-bottom: 25px; padding-left: 20px; padding-right: 40px; padding-top: 15px;">
+                                  <div style="box-sizing: border-box; font-family: Tahoma,Verdana,sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 21.6px; color: #054040; line-height: 1.8;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; mso-line-height-alt: 28.8px;"> <span style="box-sizing: border-box; font-size: 16px;"><a href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXBioumwPa5U5L0ywujk6WZKqrn1MV01LpakwwiA9pF3p1iifN8OndnVr1zvp6M5-oI5W7fDazNdiKx3TrElcJi6my8xu7Ql2TBYjz05ywTkzba3vbh3IUOnFLVZrsY8H-3T_FhO4EbeuHZhY7aC0DQNgPteWSU2MhBsfDUa1JfSAmiQuQHyG5G8heBLyFwWQp6b2O9CqkmuAcTcoyH9P43PZSMuZrVu6lJwBttUqPEOtM1SG6hOxV0FL4c4AiYY6ccq_GbPYxe3vOjMGqqnBRfuckHGd-lNu-U9De9GCdlhlFwg45lWzuxT_TRdZ1QU8nro4lKXGRmI2eDlBCTMDC8InaaXRa6dt_821KI-LFdYGYN3VabMq5ragT2Yv-vKqxU%3D" target="_blank" style="box-sizing: border-box; text-decoration: underline; color: #53c2b5;" rel="noopener">Rechargeable Cordless Water Flosser</a></span></p>
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; mso-line-height-alt: 27px;"> <span style="box-sizing: border-box; font-size: 15px;"><em style="box-sizing: border-box;">As someone who has been a bit “flossing challenged” in the past, using a Water Flosser has changed the game for me. I don’t have a ton of counter space in my bathroom, so I appreciate how sleek it is to keep out.</em></span></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+            <table class="row row-20" align="center" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0;">
+              <tbody style="box-sizing: border-box;">
+                <tr style="box-sizing: border-box;">
+                  <td style="box-sizing: border-box;">
+                    <table class="row-content stack" align="center" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; background-color: #fff; color: #000; width: 600px; margin: 0 auto;" width="600" bgcolor="#fff">
+                      <tbody style="box-sizing: border-box;">
+                        <tr style="box-sizing: border-box;">
+                          <td class="column column-1" width="100%" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; font-weight: 400; text-align: left; vertical-align: top; border-top: 0; border-right: 0; border-bottom: 0; border-left: 0;" align="left" valign="top">
+                            <table class="text_block block-1" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box; padding-top: 5px;">
+                                  <div style="box-sizing: border-box; font-family: sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555; line-height: 1.2;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;">
+
+                                        <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;"> <tr> <td align="center" valign="top" width="600" style="width:600px;"><![endif]-->
+                                      <table align="center" border="0" cellpadding="0" cellspacing="0" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 600px !important;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td class="footerContainer" style="background:#ffffff none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #ffffff;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0px;padding-bottom: 0px;" valign="top">
+                                              <table border="0" cellpadding="0" cellspacing="0" class="mcnCodeBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+                                                <tbody class="mcnTextBlockOuter">
+                                                  <tr>
+                                                    <td class="mcnTextBlockInner" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+                                                      <style type="text/css">
+                                                        hr.style-one {
+                                                          border: 0;
+                                                          height: 1px;
+                                                          background: #fff;
+                                                          margin-top: 40px;
+                                                          margin-bottom: 40px
+                                                        }
+                                                        .flex-container {
+                                                          display: -webkit-flex;
+                                                          display: flex;
+                                                          align-content: center;
+                                                          max-width: 100%
+                                                        }
+                                                        .flex-item {
+                                                          align-self: center;
+                                                          min-width: 33.33%
+                                                        }
+                                                        @media only screen and (max-width:599px) {
+                                                          .flex-container {
+                                                            flex-direction: column
+                                                          }
+                                                          @media only screen and (max-width:599px) {
+                                                            .flex-item {
+                                                              margin: 15px
+                                                            }
+                                                      </style>
+                                                      <div class="mcnTextContent" style="background-color: #ffffff;padding-top: 25px;padding-left: 80px;padding-right: 80px;padding-bottom: 10px;text-align: center;word-break: break-word;color: #929292;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 11px;line-height: 200%;"><a style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #53c2b5;font-weight: normal;text-decoration: none;" href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2gFi-bmA4MqYleet8RwL_5_Zlxu5UD0n1uUeNjlhAv-kzsBmWdWsyPRvy_W-PTfF3HQGYMdAvyjdyA6kTGXqEVwfC0JGuKwVEu_IUidT-Jpe-NHV-0aglALtwdQJcf9cqzafEPOyz7JJrT2uDJ2cKRcfZ19ynXZaG2HDt1X5BT6417ujz9ND4KjUzdhO_koFPlAwZteRNpbrlaOBIs7QpT9rKXX4Q21nRbfGxUNsMWerSlUKSb4vZy7UHYjgSl5K9c3NoQqx_KCnEgHq4TNJ1H5wiBTisCNx1NKNuzl5VAnePXoHAVcy4cDPhsZKKI1IxA%3D%3D"><img alt="Facebook" data-file-id="1733981" style="border: 0px initial;width: 23px;margin: 0px 30px 11px 0px;height: auto !important;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="25" src="https://d2axdqolvqmdvx.cloudfront.net/7b41cb34-44cc-42a7-a162-f25b529f435b/SOCIALMEDIAICONS_Facebook_gray.png" /></a> <a style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #F8F8F8;font-weight: normal;text-decoration: none;" href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2pcIu2vhp7St7In7gyQ5l-2T_Kq3zW-kV_04v5UOJ4uIC13u_Ej9G4VpqVBL1n7XHwF2xKPQRB2_EiTRswevu7e_bpGaQYxT9__GJTtyzPuDI2s7I3I-IHclSWPkttbUmy_ZFmTDWAi5t4BFJ8L9b9muY4W8YAPQWUwfMhPMUpIfrCABFqgsYB-WnQFUYl_IOryr4r2ddvTY9bPLHznT3Ohmxl5ByL0_vPLb8nMqqMbHS41MZdqe-hYB8Slj7b50NDOAEHwayk4wdSuIEQ6WSMs9oWAF9MUZ42dxwpiSdUT2g3roPPa192lDQ3G9eZ_tmQ%3D%3D"><img alt="Instagram" data-file-id="1733989" style="border: 0px initial;width: 23px;margin: 0px 0px 11px 0px;height: auto !important;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="26" src="https://d2axdqolvqmdvx.cloudfront.net/2dda0e86-b5e3-41be-921f-61251a9d0ec6/SOCIALMEDIAICONS_Instagram_gray.png" /></a> <a style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #929292;font-weight: normal;text-decoration: none;" href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2hWCDBu3HCT7VuhTfZlw6FD-2XFBPEWFZz3Enk2qYHm9oC5u8yzJazHIu2iBGjNgh96CCaplMx0QYGIaUEmR3pmOXcohIBB2kEL1psTuI4_UZ2q-b1hds8dZEi86EE6SEhA22LWyMuX_-UzMVXILt_cXDuRIRiNadyP3uEPwMXnNSma5fuqRKh7r7720eUXwA2TH7wFVDRn41vZma31FzOLQzZ2EHdg18Enu0gB_bbR9RVci5W4wvbUV5RP_kRaxs9kLPumpf6vJ7ppGKFL9PBXbE8rqzaJgdRPCoamv6_HJEIXp8BgmePpurBZaaL6w3w%3D%3D"><img alt="Twitter" data-file-id="1733985" style="border: 0px initial;width: 23px;margin: 0px 0px 11px 30px;height: auto !important;outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;" width="28" src="https://d2axdqolvqmdvx.cloudfront.net/b01e829c-d334-4428-9407-a750bb262b98/SOCIALMEDIAICONS_Twitter_gray.png" /></a><br /> If you ever have a question, you can get an answer fastest through our <a style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #53c2b5;font-weight: normal;text-decoration: none;" href="https://links.email.getquip.com/u/click?_t=a20fc45cad48484bb7c12f6646447a5c&_m=ec3117c59d2d40078e50eef55de22dbe&_e=7wxfRw6GZGYRHcbA6m2D2iHZSukkYcmrTYTeZLSLUXA7iQgBlC8F7P8ynj-6yWUe4K6Z-Iw5HSP6BvLzkIR4h7akwGIhv1mkPwsMFf69wMHME6-1T9ELZtavwoKBn8yEXqVRlGGDGx5OU12szwjgOm-okPgK9wBxkohNgJtqZqLeIOBsoqcTO7oEQjwGiM4r4Sv6E4cPQMqABH-RlVUT-zdViVUTqRtGjujS_sRecrIQFIxRxfJhRjfmyBY7JGfqePTH2vPfZSmxOcc0398FBsaHmk0CiZkMezW17WKl9-w8cJHVq5nl1W-22HH_b515WMl0EbLbM-eEKq-fqgfWAQ%3D%3D">help center</a>.</div>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+
+                                      <!--[if (gte mso 9)|(IE)]></td> </tr> </table><![endif]--></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                            <table class="text_block block-2" width="100%" border="0" cellpadding="0" cellspacing="0" role="presentation" style="box-sizing: border-box; mso-table-lspace: 0; mso-table-rspace: 0; word-break: break-word;">
+                              <tr style="box-sizing: border-box;">
+                                <td class="pad" style="box-sizing: border-box;">
+                                  <div style="box-sizing: border-box; font-family: sans-serif;">
+                                    <div class style="box-sizing: border-box; font-size: 12px; font-family: Roboto,Tahoma,Verdana,Segoe,sans-serif; mso-line-height-alt: 14.399999999999999px; color: #555; line-height: 1.2;">
+                                      <p style="box-sizing: border-box; line-height: inherit; margin: 0; font-size: 14px; text-align: center; mso-line-height-alt: 16.8px;">
+
+                                        <!--[if (gte mso 9)|(IE)]><table align="center" border="0" cellspacing="0" cellpadding="0" width="600" style="width:600px;"> <tr> <td align="center" valign="top" width="600" style="width:600px;"><![endif]-->
+                                      <table align="center" border="0" cellpadding="0" cellspacing="0" class="templateContainer" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;max-width: 600px !important;" width="100%">
+                                        <tbody>
+                                          <tr>
+                                            <td class="footerContainer" style="background:#03040f none no-repeat center/cover;mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;background-color: #03040f;background-image: none;background-repeat: no-repeat;background-position: center;background-size: cover;border-top: 0;border-bottom: 0;padding-top: 0px;padding-bottom: 0px;" valign="top">
+                                              <table border="0" cellpadding="0" cellspacing="0" class="mcnCodeBlock" style="border-collapse: collapse;mso-table-lspace: 0pt;mso-table-rspace: 0pt;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" width="100%">
+                                                <tbody class="mcnTextBlockOuter">
+                                                  <tr>
+                                                    <td class="mcnTextBlockInner" style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;" valign="top">
+                                                      <style type="text/css">
+                                                        hr.style-one {
+                                                          border: 0;
+                                                          height: 1px;
+                                                          background: #fff;
+                                                          margin-top: 20px;
+                                                          margin-bottom: 40px
+                                                        }
+                                                        .flex-container {
+                                                          display: -webkit-flex;
+                                                          display: flex;
+                                                          align-content: center;
+                                                          max-width: 100%
+                                                        }
+                                                        .flex-item {
+                                                          align-self: center;
+                                                          min-width: 33.33%
+                                                        }
+                                                        @media only screen and (max-width:599px) {
+                                                          .flex-container {
+                                                            flex-direction: column
+                                                          }
+                                                          @media only screen and (max-width:599px) {
+                                                            .flex-item {
+                                                              margin: 15px
+                                                            }
+                                                      </style>
+                                                      <div class="mcnTextContent" style="background-color: #ffffff;padding-top: 20px;padding-left: 75px;padding-right: 75px;padding-bottom: 10px;text-align: center;word-break: break-word;color: #929292;font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;font-size: 11px;line-height: 200%;">
+                                                        <hr class="style-one" style="border: 0;height: 1px;background: #eaeaea;margin-top: 15px;margin-bottom: 30px;" />© 2024&nbsp;QUIP NYC INC. <br /> 45 Main Street, Brooklyn, NY 11201 <br /> Please do not reply to this email. <br /> Prefer not to get this, or other emails from us? <br /> <a style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #53c2b5;font-weight: normal;text-decoration: none;" target="_blank" href="#">Unsubscribe</a> | <a style="mso-line-height-rule: exactly;-ms-text-size-adjust: 100%;-webkit-text-size-adjust: 100%;color: #53c2b5;font-weight: normal;text-decoration: none;" target="_blank" href="#">Preferences</a>
+                                                      </div>
+                                                    </td>
+                                                  </tr>
+                                                </tbody>
+                                              </table>
+                                            </td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+
+                                      <!--[if (gte mso 9)|(IE)]></td> </tr> </table><![endif]--></p>
+                                    </div>
+                                  </div>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- End -->
+  </body>
+</html>

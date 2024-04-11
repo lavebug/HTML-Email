@@ -1,0 +1,2828 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--[if mso
+      ]><xml
+        ><o:OfficeDocumentSettings
+          ><o:PixelsPerInch>96</o:PixelsPerInch
+          ><o:AllowPNG /></o:OfficeDocumentSettings></xml
+    ><![endif]-->
+
+    <!--[if !mso]>
+
+<!-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Urbanist:wght@400;600;700&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+
+    <!--<![endif]-->
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        padding: 0;
+      }
+      a[x-apple-data-detectors] {
+        color: inherit !important;
+        text-decoration: inherit !important;
+      }
+      #MessageViewBody a {
+        color: inherit;
+        text-decoration: none;
+      }
+      p {
+        line-height: inherit;
+      }
+      .desktop_hide,
+      .desktop_hide table {
+        mso-hide: all;
+        display: none;
+        max-height: 0px;
+        overflow: hidden;
+      }
+      .image_block img + div {
+        display: none;
+      }
+      @media (max-width: 660px) {
+        .desktop_hide table.icons-inner,
+        .row-1 .column-1 .block-5.button_block .alignment a,
+        .row-1 .column-1 .block-5.button_block .alignment div,
+        .row-2 .column-2 .block-3.button_block .alignment a,
+        .row-2 .column-2 .block-3.button_block .alignment div,
+        .row-3 .column-1 .block-3.button_block .alignment a,
+        .row-3 .column-1 .block-3.button_block .alignment div,
+        .row-4 .column-2 .block-3.button_block .alignment a,
+        .row-4 .column-2 .block-3.button_block .alignment div,
+        .row-5 .column-1 .block-3.button_block .alignment a,
+        .row-5 .column-1 .block-3.button_block .alignment div,
+        .row-6 .column-2 .block-3.button_block .alignment a,
+        .row-6 .column-2 .block-3.button_block .alignment div {
+          display: inline-block !important;
+        }
+        .icons-inner {
+          text-align: center;
+        }
+        .icons-inner td {
+          margin: 0 auto;
+        }
+        .image_block div.fullWidth {
+          max-width: 100% !important;
+        }
+        .mobile_hide {
+          display: none;
+        }
+        .row-content {
+          width: 100% !important;
+        }
+        .stack .column {
+          width: 100%;
+          display: block;
+        }
+        .mobile_hide {
+          min-height: 0;
+          max-height: 0;
+          max-width: 0;
+          overflow: hidden;
+          font-size: 0px;
+        }
+        .desktop_hide,
+        .desktop_hide table {
+          display: table !important;
+          max-height: none !important;
+        }
+        .reverse {
+          display: table;
+          width: 100%;
+        }
+        .reverse .column.first {
+          display: table-footer-group !important;
+        }
+        .reverse .column.last {
+          display: table-header-group !important;
+        }
+        .row-3 td.column.first .border,
+        .row-5 td.column.first .border {
+          padding: 15px 10px 15px 20px;
+          border-top: 0;
+          border-right: 0px;
+          border-bottom: 0;
+          border-left: 0;
+        }
+        .row-3 td.column.last .border,
+        .row-5 td.column.last .border {
+          padding: 15px 20px 15px 10px;
+          border-top: 0;
+          border-right: 0px;
+          border-bottom: 0;
+          border-left: 0;
+        }
+        .row-1 .column-1 .block-2.spacer_block {
+          height: 20px !important;
+        }
+        .row-1 .column-1 .block-1.image_block .alignment div {
+          margin: 0 auto !important;
+        }
+        .row-1 .column-1 .block-3.heading_block h1 {
+          font-size: 30px !important;
+        }
+        .row-1 .column-1 .block-6.spacer_block {
+          height: 1px !important;
+        }
+        .row-1 .column-1 .block-4.paragraph_block td.pad > div,
+        .row-2 .column-2 .block-2.paragraph_block td.pad > div,
+        .row-3 .column-1 .block-2.paragraph_block td.pad > div,
+        .row-4 .column-2 .block-2.paragraph_block td.pad > div,
+        .row-5 .column-1 .block-2.paragraph_block td.pad > div,
+        .row-6 .column-2 .block-2.paragraph_block td.pad > div {
+          font-size: 16px !important;
+        }
+        .row-1 .column-1 .block-5.button_block td.pad,
+        .row-2 .column-2 .block-3.button_block td.pad,
+        .row-3 .column-1 .block-3.button_block td.pad,
+        .row-4 .column-2 .block-3.button_block td.pad,
+        .row-5 .column-1 .block-3.button_block td.pad,
+        .row-6 .column-2 .block-3.button_block td.pad {
+          padding: 20px 0 30px !important;
+        }
+        .row-1 .column-1 .block-5.button_block a,
+        .row-1 .column-1 .block-5.button_block div,
+        .row-1 .column-1 .block-5.button_block span,
+        .row-2 .column-2 .block-3.button_block a,
+        .row-2 .column-2 .block-3.button_block div,
+        .row-2 .column-2 .block-3.button_block span,
+        .row-3 .column-1 .block-3.button_block a,
+        .row-3 .column-1 .block-3.button_block div,
+        .row-3 .column-1 .block-3.button_block span,
+        .row-4 .column-2 .block-3.button_block a,
+        .row-4 .column-2 .block-3.button_block div,
+        .row-4 .column-2 .block-3.button_block span,
+        .row-5 .column-1 .block-3.button_block a,
+        .row-5 .column-1 .block-3.button_block div,
+        .row-5 .column-1 .block-3.button_block span,
+        .row-6 .column-2 .block-3.button_block a,
+        .row-6 .column-2 .block-3.button_block div,
+        .row-6 .column-2 .block-3.button_block span {
+          font-size: 16px !important;
+          line-height: 32px !important;
+        }
+        .row-1 .column-1 .block-5.button_block .alignment,
+        .row-2 .column-2 .block-3.button_block .alignment,
+        .row-3 .column-1 .block-3.button_block .alignment,
+        .row-4 .column-2 .block-3.button_block .alignment,
+        .row-5 .column-1 .block-3.button_block .alignment,
+        .row-6 .column-2 .block-3.button_block .alignment {
+          text-align: left !important;
+        }
+        .row-2 .column-2 .block-1.heading_block td.pad,
+        .row-3 .column-1 .block-1.heading_block td.pad,
+        .row-4 .column-2 .block-1.heading_block td.pad,
+        .row-5 .column-1 .block-1.heading_block td.pad,
+        .row-6 .column-2 .block-1.heading_block td.pad {
+          padding: 0 !important;
+        }
+        .row-2 .column-2 .block-1.heading_block h3,
+        .row-3 .column-1 .block-1.heading_block h3,
+        .row-4 .column-2 .block-1.heading_block h3,
+        .row-5 .column-1 .block-1.heading_block h3,
+        .row-6 .column-2 .block-1.heading_block h3 {
+          font-size: 26px !important;
+        }
+        .row-3 .column-1 .block-2.paragraph_block td.pad,
+        .row-5 .column-1 .block-2.paragraph_block td.pad {
+          padding: 10px 0 0 !important;
+        }
+        .row-1 .column-1 {
+          padding: 30px 25px 20px !important;
+        }
+        .row-2 .column-1,
+        .row-3 .column-2 .border,
+        .row-4 .column-1,
+        .row-5 .column-2 .border,
+        .row-6 .column-1 {
+          padding: 20px 25px 0 !important;
+        }
+        .row-2 .column-2,
+        .row-3 .column-1 .border,
+        .row-4 .column-2,
+        .row-5 .column-1 .border,
+        .row-6 .column-2 {
+          padding: 0 25px 10px !important;
+        }
+        .row-8 .column-1 {
+          padding: 40px 25px !important;
+        }
+      }
+    </style>
+  </head>
+  <body
+    style="
+      background-color: #ffffff;
+      margin: 0;
+      padding: 0;
+      -webkit-text-size-adjust: none;
+      text-size-adjust: none;
+    "
+  >
+    <div
+      style="
+        display: none !important;
+        padding: 0;
+        height: 1px;
+        font-size: 1px;
+        background-color: inherit !important;
+        opacity: 0;
+        color: transparent;
+        mso-line-height-rule: exactly;
+        line-height: 1px;
+        mso-hide: all;
+      "
+    >
+      Templates for every special moment
+      <div style="display: none; max-height: 0px; overflow: hidden">
+        &nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌&nbsp;‌
+      </div>
+    </div>
+    <div
+      class="preheader"
+      style="
+        display: none;
+        font-size: 1px;
+        color: #333333;
+        line-height: 1px;
+        max-height: 0px;
+        max-width: 0px;
+        opacity: 0;
+        overflow: hidden;
+      "
+    >
+      Craft, Embrace, Share Moments.
+    </div>
+    <table
+      class="nl-container"
+      width="100%"
+      border="0"
+      cellpadding="0"
+      cellspacing="0"
+      role="presentation"
+      style="
+        mso-table-lspace: 0pt;
+        mso-table-rspace: 0pt;
+        background-color: #ffffff;
+      "
+    >
+      <tr>
+        <td>
+          <table
+            class="row row-1"
+            align="center"
+            width="100%"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            role="presentation"
+            style="
+              mso-table-lspace: 0pt;
+              mso-table-rspace: 0pt;
+              background-color: #fbf9ff;
+              background-image: url('https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/stpatricksdayeaster.png');
+              background-position: top center;
+              background-repeat: no-repeat;
+              background-size: auto;
+            "
+          >
+            <tr>
+              <td>
+                <table
+                  class="row-content stack"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="
+                    mso-table-lspace: 0pt;
+                    mso-table-rspace: 0pt;
+                    background-size: auto;
+                    color: #000000;
+                    width: 640px;
+                    margin: 0 auto;
+                  "
+                  width="640"
+                >
+                  <tr>
+                    <td
+                      class="column column-1"
+                      width="100%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        padding-top: 45px;
+                        vertical-align: top;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <table
+                        class="image_block block-1"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              width: 100%;
+                              padding-right: 0px;
+                              padding-left: 0px;
+                            "
+                          >
+                            <div
+                              class="alignment"
+                              align="center"
+                              style="line-height: 10px"
+                            >
+                              <div style="max-width: 224px">
+                                <a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=2XN5nhY5QkTwbgHwKqddcjQWDJscUcoF3Uq7pFaFBxsq&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3584"
+                                  target="_blank"
+                                  style="outline: none"
+                                  tabindex="-1"
+                                  ><img
+                                    src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/beefree-darkmode-lightpurple.png"
+                                    style="
+                                      display: block;
+                                      height: auto;
+                                      border: 0;
+                                      width: 100%;
+                                    "
+                                    width="224"
+                                    alt="Beefree Logo"
+                                    title="Beefree Logo"
+                                /></a>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <div
+                        class="spacer_block block-2"
+                        style="height: 40px; line-height: 40px; font-size: 1px"
+                      >
+                        &#8202;
+                      </div>
+                      <table
+                        class="heading_block block-3"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              padding-bottom: 10px;
+                              padding-top: 10px;
+                              text-align: center;
+                              width: 100%;
+                            "
+                          >
+                            <h1
+                              style="
+                                margin: 0;
+                                color: #7747ff;
+                                direction: ltr;
+                                font-family: 'Urbanist', 'Arial';
+                                font-size: 35px;
+                                font-weight: 600;
+                                letter-spacing: normal;
+                                line-height: 120%;
+                                text-align: left;
+                                margin-top: 0;
+                                margin-bottom: 0;
+                                mso-line-height-alt: 42px;
+                              "
+                            >
+                              ☘️ Email templates are a pot of gold
+                            </h1>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="paragraph_block block-4"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          word-break: break-word;
+                        "
+                      >
+                        <tr>
+                          <td class="pad" style="padding-top: 10px">
+                            <div
+                              style="
+                                color: #444a5b;
+                                direction: ltr;
+                                font-family: 'Inter', 'Arial';
+                                font-size: 18px;
+                                font-weight: 400;
+                                letter-spacing: 0px;
+                                line-height: 150%;
+                                text-align: left;
+                                mso-line-height-alt: 27px;
+                              "
+                            >
+                              <p style="margin: 0; margin-bottom: 16px">
+                                Go from email inspiration to email creation in
+                                one click with our latest group of seasonal
+                                email templates.
+                              </p>
+                              <p style="margin: 0">
+                                Whether you’re celebrating
+                                <u
+                                  ><a
+                                    href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTNGc2VhcmNoJTNEaW50ZXJuYXRpb25hbCUyNTIwd29tZW4lMjUyN3MlMjUyMGRheSUyNnV0bV9zb3VyY2UlM0ROZXdzbGV0dGVyJTI2dXRtX21lZGl1bSUzRGVtYWlsJTI2dXRtX2NvbnRlbnQlM0QlMjVGMCUyNTlGJTI1OEUlMjU4OSUyQlJlYWR5LXRvLWdvJTJCTWFyY2glMkIyMDI0JTJCdGVtcGxhdGVzJTI1MjElMjZ1dG1fY2FtcGFpZ24lM0RNYXJjaC10ZW1wbGF0ZS0wOS0wMi0yMw==&sig=G5JJxPW6YY5Cza5NxCtHTvtqBB3gAJRSmnFx5HKPawLR&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3629"
+                                    target="_blank"
+                                    style="
+                                      text-decoration: underline;
+                                      color: #7747ff;
+                                    "
+                                    rel="noopener"
+                                    >International Women’s Day</a
+                                  ></u
+                                >,
+                                <u
+                                  ><a
+                                    href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGc3QtcGF0cmlja3MtZGF5JTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=79GxJvDkJNw3VE3Dou7J882YziPWaRH3DP6FL7k2L9Eh&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3630"
+                                    target="_blank"
+                                    style="
+                                      text-decoration: underline;
+                                      color: #7747ff;
+                                    "
+                                    rel="noopener"
+                                    >St. Patrick’s Day</a
+                                  ></u
+                                >, or
+                                <u
+                                  ><a
+                                    href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGcmFtYWRhbiUzRnV0bV9zb3VyY2UlM0ROZXdzbGV0dGVyJTI2dXRtX21lZGl1bSUzRGVtYWlsJTI2dXRtX2NvbnRlbnQlM0QlMjVGMCUyNTlGJTI1OEUlMjU4OSUyQlJlYWR5LXRvLWdvJTJCTWFyY2glMkIyMDI0JTJCdGVtcGxhdGVzJTI1MjElMjZ1dG1fY2FtcGFpZ24lM0RNYXJjaC10ZW1wbGF0ZS0wOS0wMi0yMw==&sig=7Pup49K71ePmdadgYzhHmt4mKYorhiFb5nSu2BiWFVUM&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3631"
+                                    target="_blank"
+                                    style="
+                                      text-decoration: underline;
+                                      color: #7747ff;
+                                    "
+                                    rel="noopener"
+                                    ><u>Ramadan</u></a
+                                  ></u
+                                >; or injecting some fun into your marketing
+                                calendar with a
+                                <u
+                                  ><a
+                                    href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGbGVhcC15ZWFyJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=EnHRpQsgrrgcHoh5gSUQPtukxGoogef1kgpcAqJSxiJo&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3632"
+                                    target="_blank"
+                                    style="
+                                      text-decoration: underline;
+                                      color: #7747ff;
+                                    "
+                                    rel="noopener"
+                                    ><u>Leap Day special email</u></a
+                                  ></u
+                                >; our catalog of over 1,600+
+                                professionally-designed email and landing page
+                                templates has you covered!
+                              </p>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="button_block block-5"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              padding-bottom: 20px;
+                              padding-top: 20px;
+                              text-align: left;
+                            "
+                          >
+                            <div class="alignment" align="left">
+                              <!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTNGcG9zaXRpb24lM0RoZXJvY3RhJTI2dXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=3RYj3uiNjHdWzDQ11rqnBSM9KaLbm7CPZQW3bnW9hw8R&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3585" style="height:48px;width:134px;v-text-anchor:middle;" arcsize="9%" stroke="false" fillcolor="#7747ff">
+<w:anchorlock/>
+<v:textbox inset="0px,0px,0px,0px">
+<center style="color:#ffffff; font-family:sans-serif; font-size:16px">
+<!
+                              [endif]--><a
+                                href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTNGcG9zaXRpb24lM0RoZXJvY3RhJTI2dXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=3RYj3uiNjHdWzDQ11rqnBSM9KaLbm7CPZQW3bnW9hw8R&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3585"
+                                target="_blank"
+                                style="
+                                  text-decoration: none;
+                                  display: inline-block;
+                                  color: #ffffff;
+                                  background-color: #7747ff;
+                                  border-radius: 4px;
+                                  width: auto;
+                                  border-top: 0px solid #7747ff;
+                                  font-weight: 400;
+                                  border-right: 0px solid #7747ff;
+                                  border-bottom: 0px solid #7747ff;
+                                  border-left: 0px solid #7747ff;
+                                  padding-top: 8px;
+                                  padding-bottom: 8px;
+                                  font-family: 'Inter', 'Arial';
+                                  font-size: 16px;
+                                  text-align: center;
+                                  mso-border-alt: none;
+                                  word-break: keep-all;
+                                "
+                                ><span
+                                  style="
+                                    padding-left: 20px;
+                                    padding-right: 20px;
+                                    font-size: 16px;
+                                    display: inline-block;
+                                    letter-spacing: normal;
+                                  "
+                                  ><span
+                                    style="
+                                      word-break: break-word;
+                                      line-height: 32px;
+                                    "
+                                    >Get inspired</span
+                                  ></span
+                                ></a
+                              >
+
+                              <!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <div
+                        class="spacer_block block-6"
+                        style="height: 60px; line-height: 60px; font-size: 1px"
+                      >
+                        &#8202;
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table
+            class="row row-2"
+            align="center"
+            width="100%"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            role="presentation"
+            style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+          >
+            <tr>
+              <td>
+                <table
+                  class="row-content stack"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="
+                    mso-table-lspace: 0pt;
+                    mso-table-rspace: 0pt;
+                    border-radius: 0;
+                    color: #000000;
+                    width: 640px;
+                    margin: 0 auto;
+                  "
+                  width="640"
+                >
+                  <tr>
+                    <td
+                      class="column column-1"
+                      width="50%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-bottom: 15px;
+                        padding-left: 20px;
+                        padding-right: 10px;
+                        padding-top: 30px;
+                        vertical-align: middle;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <table
+                        class="image_block block-1"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              width: 100%;
+                              padding-right: 0px;
+                              padding-left: 0px;
+                            "
+                          >
+                            <div
+                              class="alignment"
+                              align="center"
+                              style="line-height: 10px"
+                            >
+                              <div class="fullWidth" style="max-width: 320px">
+                                <a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGbGVhcC15ZWFyJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=EnHRpQsgrrgcHoh5gSUQPtukxGoogef1kgpcAqJSxiJo&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3632"
+                                  target="_blank"
+                                  style="outline: none"
+                                  tabindex="-1"
+                                  ><img
+                                    src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/LeapYear_email_thumb.png"
+                                    style="
+                                      display: block;
+                                      height: auto;
+                                      border: 0;
+                                      width: 100%;
+                                    "
+                                    width="320"
+                                    alt="Leap Year - Beefree Templates"
+                                    title="Leap Year - Beefree Templates"
+                                /></a>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td
+                      class="column column-2"
+                      width="50%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-bottom: 15px;
+                        padding-left: 10px;
+                        padding-right: 20px;
+                        padding-top: 15px;
+                        vertical-align: middle;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <table
+                        class="heading_block block-1"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              padding-right: 15px;
+                              padding-top: 20px;
+                              text-align: center;
+                              width: 100%;
+                            "
+                          >
+                            <h3
+                              style="
+                                margin: 0;
+                                color: #26045d;
+                                direction: ltr;
+                                font-family: 'Urbanist', 'Arial';
+                                font-size: 30px;
+                                font-weight: 600;
+                                letter-spacing: normal;
+                                line-height: 120%;
+                                text-align: left;
+                                margin-top: 0;
+                                margin-bottom: 0;
+                                mso-line-height-alt: 36px;
+                              "
+                            >
+                              <span class="tinyMce-placeholder">Leap Day</span>
+                            </h3>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="paragraph_block block-2"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          word-break: break-word;
+                        "
+                      >
+                        <tr>
+                          <td class="pad" style="padding-top: 10px">
+                            <div
+                              style="
+                                color: #444a5b;
+                                direction: ltr;
+                                font-family: 'Inter', 'Arial';
+                                font-size: 18px;
+                                font-weight: 400;
+                                letter-spacing: 0px;
+                                line-height: 150%;
+                                text-align: left;
+                                mso-line-height-alt: 27px;
+                              "
+                            >
+                              <p style="margin: 0">
+                                Great sales campaigns like this only come around
+                                once every four years.
+                              </p>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="button_block block-3"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              padding-bottom: 20px;
+                              padding-top: 20px;
+                              text-align: left;
+                            "
+                          >
+                            <div class="alignment" align="left">
+                              <!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGbGVhcC15ZWFyJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=EnHRpQsgrrgcHoh5gSUQPtukxGoogef1kgpcAqJSxiJo&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3632" style="height:48px;width:144px;v-text-anchor:middle;" arcsize="9%" stroke="false" fillcolor="#7747ff">
+<w:anchorlock/>
+<v:textbox inset="0px,0px,0px,0px">
+<center style="color:#ffffff; font-family:sans-serif; font-size:16px">
+<!
+                              [endif]--><a
+                                href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGbGVhcC15ZWFyJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=EnHRpQsgrrgcHoh5gSUQPtukxGoogef1kgpcAqJSxiJo&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3632"
+                                target="_blank"
+                                style="
+                                  text-decoration: none;
+                                  display: inline-block;
+                                  color: #ffffff;
+                                  background-color: #7747ff;
+                                  border-radius: 4px;
+                                  width: auto;
+                                  border-top: 0px solid #7747ff;
+                                  font-weight: 400;
+                                  border-right: 0px solid #7747ff;
+                                  border-bottom: 0px solid #7747ff;
+                                  border-left: 0px solid #7747ff;
+                                  padding-top: 8px;
+                                  padding-bottom: 8px;
+                                  font-family: 'Inter', 'Arial';
+                                  font-size: 16px;
+                                  text-align: center;
+                                  mso-border-alt: none;
+                                  word-break: keep-all;
+                                "
+                                ><span
+                                  style="
+                                    padding-left: 20px;
+                                    padding-right: 20px;
+                                    font-size: 16px;
+                                    display: inline-block;
+                                    letter-spacing: normal;
+                                  "
+                                  ><span
+                                    style="
+                                      word-break: break-word;
+                                      line-height: 32px;
+                                    "
+                                    >Explore now</span
+                                  ></span
+                                ></a
+                              >
+
+                              <!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table
+            class="row row-3"
+            align="center"
+            width="100%"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            role="presentation"
+            style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+          >
+            <tr>
+              <td>
+                <table
+                  class="row-content stack"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="
+                    mso-table-lspace: 0pt;
+                    mso-table-rspace: 0pt;
+                    background-color: #f9f9f8;
+                    border-radius: 0;
+                    color: #000000;
+                    width: 640px;
+                    margin: 0 auto;
+                  "
+                  width="640"
+                >
+                  <tr class="reverse">
+                    <td
+                      class="column column-1 first"
+                      width="50%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-bottom: 15px;
+                        padding-left: 20px;
+                        padding-right: 10px;
+                        padding-top: 15px;
+                        vertical-align: middle;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <div class="border">
+                        <table
+                          class="heading_block block-1"
+                          width="100%"
+                          border="0"
+                          cellpadding="0"
+                          cellspacing="0"
+                          role="presentation"
+                          style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                        >
+                          <tr>
+                            <td
+                              class="pad"
+                              style="
+                                padding-left: 10px;
+                                padding-top: 20px;
+                                text-align: center;
+                                width: 100%;
+                              "
+                            >
+                              <h3
+                                style="
+                                  margin: 0;
+                                  color: #26045d;
+                                  direction: ltr;
+                                  font-family: 'Urbanist', 'Arial';
+                                  font-size: 30px;
+                                  font-weight: 600;
+                                  letter-spacing: normal;
+                                  line-height: 120%;
+                                  text-align: left;
+                                  margin-top: 0;
+                                  margin-bottom: 0;
+                                  mso-line-height-alt: 36px;
+                                "
+                              >
+                                <strong>International Women’s Day</strong>
+                              </h3>
+                            </td>
+                          </tr>
+                        </table>
+                        <table
+                          class="paragraph_block block-2"
+                          width="100%"
+                          border="0"
+                          cellpadding="0"
+                          cellspacing="0"
+                          role="presentation"
+                          style="
+                            mso-table-lspace: 0pt;
+                            mso-table-rspace: 0pt;
+                            word-break: break-word;
+                          "
+                        >
+                          <tr>
+                            <td
+                              class="pad"
+                              style="padding-left: 10px; padding-top: 10px"
+                            >
+                              <div
+                                style="
+                                  color: #444a5b;
+                                  direction: ltr;
+                                  font-family: 'Inter', 'Arial';
+                                  font-size: 18px;
+                                  font-weight: 400;
+                                  letter-spacing: 0px;
+                                  line-height: 150%;
+                                  text-align: left;
+                                  mso-line-height-alt: 27px;
+                                "
+                              >
+                                <p style="margin: 0">
+                                  Celebrate the contributions of women and
+                                  inspire action with our templates.
+                                </p>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                        <table
+                          class="button_block block-3"
+                          width="100%"
+                          border="0"
+                          cellpadding="0"
+                          cellspacing="0"
+                          role="presentation"
+                          style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                        >
+                          <tr>
+                            <td
+                              class="pad"
+                              style="
+                                padding-bottom: 20px;
+                                padding-left: 10px;
+                                padding-top: 20px;
+                                text-align: left;
+                              "
+                            >
+                              <div class="alignment" align="left">
+                                <!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTNGc2VhcmNoJTNEaW50ZXJuYXRpb25hbCUyNTIwd29tZW4lMjUyN3MlMjUyMGRheSUyNnV0bV9zb3VyY2UlM0ROZXdzbGV0dGVyJTI2dXRtX21lZGl1bSUzRGVtYWlsJTI2dXRtX2NvbnRlbnQlM0QlMjVGMCUyNTlGJTI1OEUlMjU4OSUyQlJlYWR5LXRvLWdvJTJCTWFyY2glMkIyMDI0JTJCdGVtcGxhdGVzJTI1MjElMjZ1dG1fY2FtcGFpZ24lM0RNYXJjaC10ZW1wbGF0ZS0wOS0wMi0yMw==&sig=G5JJxPW6YY5Cza5NxCtHTvtqBB3gAJRSmnFx5HKPawLR&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3629" style="height:48px;width:144px;v-text-anchor:middle;" arcsize="9%" stroke="false" fillcolor="#7747ff">
+<w:anchorlock/>
+<v:textbox inset="0px,0px,0px,0px">
+<center style="color:#ffffff; font-family:sans-serif; font-size:16px">
+<!
+                                [endif]--><a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTNGc2VhcmNoJTNEaW50ZXJuYXRpb25hbCUyNTIwd29tZW4lMjUyN3MlMjUyMGRheSUyNnV0bV9zb3VyY2UlM0ROZXdzbGV0dGVyJTI2dXRtX21lZGl1bSUzRGVtYWlsJTI2dXRtX2NvbnRlbnQlM0QlMjVGMCUyNTlGJTI1OEUlMjU4OSUyQlJlYWR5LXRvLWdvJTJCTWFyY2glMkIyMDI0JTJCdGVtcGxhdGVzJTI1MjElMjZ1dG1fY2FtcGFpZ24lM0RNYXJjaC10ZW1wbGF0ZS0wOS0wMi0yMw==&sig=G5JJxPW6YY5Cza5NxCtHTvtqBB3gAJRSmnFx5HKPawLR&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3629"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: none;
+                                    display: inline-block;
+                                    color: #ffffff;
+                                    background-color: #7747ff;
+                                    border-radius: 4px;
+                                    width: auto;
+                                    border-top: 0px solid #7747ff;
+                                    font-weight: 400;
+                                    border-right: 0px solid #7747ff;
+                                    border-bottom: 0px solid #7747ff;
+                                    border-left: 0px solid #7747ff;
+                                    padding-top: 8px;
+                                    padding-bottom: 8px;
+                                    font-family: 'Inter', 'Arial';
+                                    font-size: 16px;
+                                    text-align: center;
+                                    mso-border-alt: none;
+                                    word-break: keep-all;
+                                  "
+                                  ><span
+                                    style="
+                                      padding-left: 20px;
+                                      padding-right: 20px;
+                                      font-size: 16px;
+                                      display: inline-block;
+                                      letter-spacing: normal;
+                                    "
+                                    ><span
+                                      style="
+                                        word-break: break-word;
+                                        line-height: 32px;
+                                      "
+                                      >Explore now</span
+                                    ></span
+                                  ></a
+                                >
+
+                                <!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </td>
+                    <td
+                      class="column column-2 last"
+                      width="50%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-bottom: 15px;
+                        padding-left: 10px;
+                        padding-right: 20px;
+                        padding-top: 15px;
+                        vertical-align: middle;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <div class="border">
+                        <table
+                          class="image_block block-1"
+                          width="100%"
+                          border="0"
+                          cellpadding="0"
+                          cellspacing="0"
+                          role="presentation"
+                          style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                        >
+                          <tr>
+                            <td
+                              class="pad"
+                              style="
+                                width: 100%;
+                                padding-right: 0px;
+                                padding-left: 0px;
+                              "
+                            >
+                              <div
+                                class="alignment"
+                                align="center"
+                                style="line-height: 10px"
+                              >
+                                <div class="fullWidth" style="max-width: 320px">
+                                  <a
+                                    href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTNGc2VhcmNoJTNEaW50ZXJuYXRpb25hbCUyNTIwd29tZW4lMjUyN3MlMjUyMGRheSUyNnV0bV9zb3VyY2UlM0ROZXdzbGV0dGVyJTI2dXRtX21lZGl1bSUzRGVtYWlsJTI2dXRtX2NvbnRlbnQlM0QlMjVGMCUyNTlGJTI1OEUlMjU4OSUyQlJlYWR5LXRvLWdvJTJCTWFyY2glMkIyMDI0JTJCdGVtcGxhdGVzJTI1MjElMjZ1dG1fY2FtcGFpZ24lM0RNYXJjaC10ZW1wbGF0ZS0wOS0wMi0yMw==&sig=G5JJxPW6YY5Cza5NxCtHTvtqBB3gAJRSmnFx5HKPawLR&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3629"
+                                    target="_blank"
+                                    style="outline: none"
+                                    tabindex="-1"
+                                    ><img
+                                      src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/womensday.png"
+                                      style="
+                                        display: block;
+                                        height: auto;
+                                        border: 0;
+                                        width: 100%;
+                                      "
+                                      width="320"
+                                      alt="International Women's Day - Beefree Templates"
+                                      title="International Women's Day - Beefree Templates"
+                                  /></a>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table
+            class="row row-4"
+            align="center"
+            width="100%"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            role="presentation"
+            style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+          >
+            <tr>
+              <td>
+                <table
+                  class="row-content stack"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="
+                    mso-table-lspace: 0pt;
+                    mso-table-rspace: 0pt;
+                    border-radius: 0;
+                    color: #000000;
+                    width: 640px;
+                    margin: 0 auto;
+                  "
+                  width="640"
+                >
+                  <tr>
+                    <td
+                      class="column column-1"
+                      width="50%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-bottom: 15px;
+                        padding-left: 20px;
+                        padding-right: 10px;
+                        padding-top: 15px;
+                        vertical-align: middle;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <table
+                        class="image_block block-1"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              width: 100%;
+                              padding-right: 0px;
+                              padding-left: 0px;
+                            "
+                          >
+                            <div
+                              class="alignment"
+                              align="center"
+                              style="line-height: 10px"
+                            >
+                              <div class="fullWidth" style="max-width: 320px">
+                                <a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGcmFtYWRhbiUzRnV0bV9zb3VyY2UlM0ROZXdzbGV0dGVyJTI2dXRtX21lZGl1bSUzRGVtYWlsJTI2dXRtX2NvbnRlbnQlM0QlMjVGMCUyNTlGJTI1OEUlMjU4OSUyQlJlYWR5LXRvLWdvJTJCTWFyY2glMkIyMDI0JTJCdGVtcGxhdGVzJTI1MjElMjZ1dG1fY2FtcGFpZ24lM0RNYXJjaC10ZW1wbGF0ZS0wOS0wMi0yMw==&sig=7Pup49K71ePmdadgYzhHmt4mKYorhiFb5nSu2BiWFVUM&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3631"
+                                  target="_blank"
+                                  style="outline: none"
+                                  tabindex="-1"
+                                  ><img
+                                    src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/Ramadan_email_thumb.png"
+                                    style="
+                                      display: block;
+                                      height: auto;
+                                      border: 0;
+                                      width: 100%;
+                                    "
+                                    width="320"
+                                    alt="Ramadan - Beefree templates"
+                                    title="Ramadan - Beefree templates"
+                                /></a>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td
+                      class="column column-2"
+                      width="50%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-bottom: 15px;
+                        padding-left: 10px;
+                        padding-right: 20px;
+                        padding-top: 15px;
+                        vertical-align: middle;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <table
+                        class="heading_block block-1"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              padding-right: 15px;
+                              padding-top: 20px;
+                              text-align: center;
+                              width: 100%;
+                            "
+                          >
+                            <h3
+                              style="
+                                margin: 0;
+                                color: #26045d;
+                                direction: ltr;
+                                font-family: 'Urbanist', 'Arial';
+                                font-size: 30px;
+                                font-weight: 600;
+                                letter-spacing: normal;
+                                line-height: 120%;
+                                text-align: left;
+                                margin-top: 0;
+                                margin-bottom: 0;
+                                mso-line-height-alt: 36px;
+                              "
+                            >
+                              <strong>Ramadan</strong>
+                            </h3>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="paragraph_block block-2"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          word-break: break-word;
+                        "
+                      >
+                        <tr>
+                          <td class="pad" style="padding-top: 10px">
+                            <div
+                              style="
+                                color: #444a5b;
+                                direction: ltr;
+                                font-family: 'Inter', 'Arial';
+                                font-size: 18px;
+                                font-weight: 400;
+                                letter-spacing: 0px;
+                                line-height: 150%;
+                                text-align: left;
+                                mso-line-height-alt: 27px;
+                              "
+                            >
+                              <p style="margin: 0">
+                                Ramadan Kareem! Rejoice in the holiday season -
+                                and educate others.
+                              </p>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="button_block block-3"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              padding-bottom: 20px;
+                              padding-top: 20px;
+                              text-align: left;
+                            "
+                          >
+                            <div class="alignment" align="left">
+                              <!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGcmFtYWRhbiUzRnV0bV9zb3VyY2UlM0ROZXdzbGV0dGVyJTI2dXRtX21lZGl1bSUzRGVtYWlsJTI2dXRtX2NvbnRlbnQlM0QlMjVGMCUyNTlGJTI1OEUlMjU4OSUyQlJlYWR5LXRvLWdvJTJCTWFyY2glMkIyMDI0JTJCdGVtcGxhdGVzJTI1MjElMjZ1dG1fY2FtcGFpZ24lM0RNYXJjaC10ZW1wbGF0ZS0wOS0wMi0yMw==&sig=7Pup49K71ePmdadgYzhHmt4mKYorhiFb5nSu2BiWFVUM&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3631" style="height:48px;width:144px;v-text-anchor:middle;" arcsize="9%" stroke="false" fillcolor="#7747ff">
+<w:anchorlock/>
+<v:textbox inset="0px,0px,0px,0px">
+<center style="color:#ffffff; font-family:sans-serif; font-size:16px">
+<!
+                              [endif]--><a
+                                href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGcmFtYWRhbiUzRnV0bV9zb3VyY2UlM0ROZXdzbGV0dGVyJTI2dXRtX21lZGl1bSUzRGVtYWlsJTI2dXRtX2NvbnRlbnQlM0QlMjVGMCUyNTlGJTI1OEUlMjU4OSUyQlJlYWR5LXRvLWdvJTJCTWFyY2glMkIyMDI0JTJCdGVtcGxhdGVzJTI1MjElMjZ1dG1fY2FtcGFpZ24lM0RNYXJjaC10ZW1wbGF0ZS0wOS0wMi0yMw==&sig=7Pup49K71ePmdadgYzhHmt4mKYorhiFb5nSu2BiWFVUM&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3631"
+                                target="_blank"
+                                style="
+                                  text-decoration: none;
+                                  display: inline-block;
+                                  color: #ffffff;
+                                  background-color: #7747ff;
+                                  border-radius: 4px;
+                                  width: auto;
+                                  border-top: 0px solid #7747ff;
+                                  font-weight: 400;
+                                  border-right: 0px solid #7747ff;
+                                  border-bottom: 0px solid #7747ff;
+                                  border-left: 0px solid #7747ff;
+                                  padding-top: 8px;
+                                  padding-bottom: 8px;
+                                  font-family: 'Inter', 'Arial';
+                                  font-size: 16px;
+                                  text-align: center;
+                                  mso-border-alt: none;
+                                  word-break: keep-all;
+                                "
+                                ><span
+                                  style="
+                                    padding-left: 20px;
+                                    padding-right: 20px;
+                                    font-size: 16px;
+                                    display: inline-block;
+                                    letter-spacing: normal;
+                                  "
+                                  ><span
+                                    style="
+                                      word-break: break-word;
+                                      line-height: 32px;
+                                    "
+                                    >Explore now</span
+                                  ></span
+                                ></a
+                              >
+
+                              <!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table
+            class="row row-5"
+            align="center"
+            width="100%"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            role="presentation"
+            style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+          >
+            <tr>
+              <td>
+                <table
+                  class="row-content stack"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="
+                    mso-table-lspace: 0pt;
+                    mso-table-rspace: 0pt;
+                    background-color: #f9f9f8;
+                    border-radius: 0;
+                    color: #000000;
+                    width: 640px;
+                    margin: 0 auto;
+                  "
+                  width="640"
+                >
+                  <tr class="reverse">
+                    <td
+                      class="column column-1 first"
+                      width="50%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-bottom: 15px;
+                        padding-left: 20px;
+                        padding-right: 10px;
+                        padding-top: 15px;
+                        vertical-align: middle;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <div class="border">
+                        <table
+                          class="heading_block block-1"
+                          width="100%"
+                          border="0"
+                          cellpadding="0"
+                          cellspacing="0"
+                          role="presentation"
+                          style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                        >
+                          <tr>
+                            <td
+                              class="pad"
+                              style="
+                                padding-left: 10px;
+                                padding-top: 20px;
+                                text-align: center;
+                                width: 100%;
+                              "
+                            >
+                              <h3
+                                style="
+                                  margin: 0;
+                                  color: #26045d;
+                                  direction: ltr;
+                                  font-family: 'Urbanist', 'Arial';
+                                  font-size: 30px;
+                                  font-weight: 600;
+                                  letter-spacing: normal;
+                                  line-height: 120%;
+                                  text-align: left;
+                                  margin-top: 0;
+                                  margin-bottom: 0;
+                                  mso-line-height-alt: 36px;
+                                "
+                              >
+                                <strong>St. Patrick’s Day</strong>
+                              </h3>
+                            </td>
+                          </tr>
+                        </table>
+                        <table
+                          class="paragraph_block block-2"
+                          width="100%"
+                          border="0"
+                          cellpadding="0"
+                          cellspacing="0"
+                          role="presentation"
+                          style="
+                            mso-table-lspace: 0pt;
+                            mso-table-rspace: 0pt;
+                            word-break: break-word;
+                          "
+                        >
+                          <tr>
+                            <td
+                              class="pad"
+                              style="padding-left: 10px; padding-top: 10px"
+                            >
+                              <div
+                                style="
+                                  color: #444a5b;
+                                  direction: ltr;
+                                  font-family: 'Inter', 'Arial';
+                                  font-size: 18px;
+                                  font-weight: 400;
+                                  letter-spacing: 0px;
+                                  line-height: 150%;
+                                  text-align: left;
+                                  mso-line-height-alt: 27px;
+                                "
+                              >
+                                <p style="margin: 0">
+                                  Encourage celebration and sales with our St.
+                                  Patrick’s Day email templates.
+                                </p>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                        <table
+                          class="button_block block-3"
+                          width="100%"
+                          border="0"
+                          cellpadding="0"
+                          cellspacing="0"
+                          role="presentation"
+                          style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                        >
+                          <tr>
+                            <td
+                              class="pad"
+                              style="
+                                padding-bottom: 20px;
+                                padding-left: 10px;
+                                padding-top: 20px;
+                                text-align: left;
+                              "
+                            >
+                              <div class="alignment" align="left">
+                                <!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGc3QtcGF0cmlja3MtZGF5JTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=79GxJvDkJNw3VE3Dou7J882YziPWaRH3DP6FL7k2L9Eh&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3630" style="height:48px;width:144px;v-text-anchor:middle;" arcsize="9%" stroke="false" fillcolor="#7747ff">
+<w:anchorlock/>
+<v:textbox inset="0px,0px,0px,0px">
+<center style="color:#ffffff; font-family:sans-serif; font-size:16px">
+<!
+                                [endif]--><a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGc3QtcGF0cmlja3MtZGF5JTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=79GxJvDkJNw3VE3Dou7J882YziPWaRH3DP6FL7k2L9Eh&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3630"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: none;
+                                    display: inline-block;
+                                    color: #ffffff;
+                                    background-color: #7747ff;
+                                    border-radius: 4px;
+                                    width: auto;
+                                    border-top: 0px solid #7747ff;
+                                    font-weight: 400;
+                                    border-right: 0px solid #7747ff;
+                                    border-bottom: 0px solid #7747ff;
+                                    border-left: 0px solid #7747ff;
+                                    padding-top: 8px;
+                                    padding-bottom: 8px;
+                                    font-family: 'Inter', 'Arial';
+                                    font-size: 16px;
+                                    text-align: center;
+                                    mso-border-alt: none;
+                                    word-break: keep-all;
+                                  "
+                                  ><span
+                                    style="
+                                      padding-left: 20px;
+                                      padding-right: 20px;
+                                      font-size: 16px;
+                                      display: inline-block;
+                                      letter-spacing: normal;
+                                    "
+                                    ><span
+                                      style="
+                                        word-break: break-word;
+                                        line-height: 32px;
+                                      "
+                                      >Explore now</span
+                                    ></span
+                                  ></a
+                                >
+
+                                <!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </td>
+                    <td
+                      class="column column-2 last"
+                      width="50%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-bottom: 15px;
+                        padding-left: 10px;
+                        padding-right: 20px;
+                        padding-top: 15px;
+                        vertical-align: middle;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <div class="border">
+                        <table
+                          class="image_block block-1"
+                          width="100%"
+                          border="0"
+                          cellpadding="0"
+                          cellspacing="0"
+                          role="presentation"
+                          style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                        >
+                          <tr>
+                            <td
+                              class="pad"
+                              style="
+                                width: 100%;
+                                padding-right: 0px;
+                                padding-left: 0px;
+                              "
+                            >
+                              <div
+                                class="alignment"
+                                align="center"
+                                style="line-height: 10px"
+                              >
+                                <div class="fullWidth" style="max-width: 320px">
+                                  <a
+                                    href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGc3QtcGF0cmlja3MtZGF5JTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=79GxJvDkJNw3VE3Dou7J882YziPWaRH3DP6FL7k2L9Eh&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3630"
+                                    target="_blank"
+                                    style="outline: none"
+                                    tabindex="-1"
+                                    ><img
+                                      src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/stpatricksday.png"
+                                      style="
+                                        display: block;
+                                        height: auto;
+                                        border: 0;
+                                        width: 100%;
+                                      "
+                                      width="320"
+                                      alt="St. Patrick's Day - Beefree templates"
+                                      title="St. Patrick's Day - Beefree templates"
+                                  /></a>
+                                </div>
+                              </div>
+                            </td>
+                          </tr>
+                        </table>
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table
+            class="row row-6"
+            align="center"
+            width="100%"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            role="presentation"
+            style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+          >
+            <tr>
+              <td>
+                <table
+                  class="row-content stack"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="
+                    mso-table-lspace: 0pt;
+                    mso-table-rspace: 0pt;
+                    border-radius: 0;
+                    color: #000000;
+                    width: 640px;
+                    margin: 0 auto;
+                  "
+                  width="640"
+                >
+                  <tr>
+                    <td
+                      class="column column-1"
+                      width="50%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-bottom: 15px;
+                        padding-left: 20px;
+                        padding-right: 10px;
+                        padding-top: 15px;
+                        vertical-align: middle;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <table
+                        class="image_block block-1"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              width: 100%;
+                              padding-right: 0px;
+                              padding-left: 0px;
+                            "
+                          >
+                            <div
+                              class="alignment"
+                              align="center"
+                              style="line-height: 10px"
+                            >
+                              <div class="fullWidth" style="max-width: 320px">
+                                <a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGZWFzdGVyJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=4J3cWCqMWzYEH3qRCuYpsfszB7FEZRzRM4ose7QmEKbL&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3633"
+                                  target="_blank"
+                                  style="outline: none"
+                                  tabindex="-1"
+                                  ><img
+                                    src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/easter.png"
+                                    style="
+                                      display: block;
+                                      height: auto;
+                                      border: 0;
+                                      width: 100%;
+                                    "
+                                    width="320"
+                                    alt="Valentine's Day - Beefree templates"
+                                    title="Valentine's Day - Beefree templates"
+                                /></a>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                    <td
+                      class="column column-2"
+                      width="50%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-bottom: 15px;
+                        padding-left: 10px;
+                        padding-right: 20px;
+                        padding-top: 15px;
+                        vertical-align: middle;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <table
+                        class="heading_block block-1"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              padding-right: 15px;
+                              padding-top: 20px;
+                              text-align: center;
+                              width: 100%;
+                            "
+                          >
+                            <h3
+                              style="
+                                margin: 0;
+                                color: #26045d;
+                                direction: ltr;
+                                font-family: 'Urbanist', 'Arial';
+                                font-size: 30px;
+                                font-weight: 600;
+                                letter-spacing: normal;
+                                line-height: 120%;
+                                text-align: left;
+                                margin-top: 0;
+                                margin-bottom: 0;
+                                mso-line-height-alt: 36px;
+                              "
+                            >
+                              <strong>Easter</strong>
+                            </h3>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="paragraph_block block-2"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          word-break: break-word;
+                        "
+                      >
+                        <tr>
+                          <td class="pad" style="padding-top: 10px">
+                            <div
+                              style="
+                                color: #444a5b;
+                                direction: ltr;
+                                font-family: 'Inter', 'Arial';
+                                font-size: 18px;
+                                font-weight: 400;
+                                letter-spacing: 0px;
+                                line-height: 150%;
+                                text-align: left;
+                                mso-line-height-alt: 27px;
+                              "
+                            >
+                              <p style="margin: 0">
+                                Hop into festive email planning with campaigns
+                                that’ll inspire joy.
+                              </p>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="button_block block-3"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              padding-bottom: 20px;
+                              padding-top: 20px;
+                              text-align: left;
+                            "
+                          >
+                            <div class="alignment" align="left">
+                              <!--[if mso]>
+<v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGZWFzdGVyJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=4J3cWCqMWzYEH3qRCuYpsfszB7FEZRzRM4ose7QmEKbL&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3633" style="height:48px;width:144px;v-text-anchor:middle;" arcsize="9%" stroke="false" fillcolor="#7747ff">
+<w:anchorlock/>
+<v:textbox inset="0px,0px,0px,0px">
+<center style="color:#ffffff; font-family:sans-serif; font-size:16px">
+<!
+                              [endif]--><a
+                                href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVtcGxhdGVzJTJGZWFzdGVyJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=4J3cWCqMWzYEH3qRCuYpsfszB7FEZRzRM4ose7QmEKbL&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3633"
+                                target="_blank"
+                                style="
+                                  text-decoration: none;
+                                  display: inline-block;
+                                  color: #ffffff;
+                                  background-color: #7747ff;
+                                  border-radius: 4px;
+                                  width: auto;
+                                  border-top: 0px solid #7747ff;
+                                  font-weight: 400;
+                                  border-right: 0px solid #7747ff;
+                                  border-bottom: 0px solid #7747ff;
+                                  border-left: 0px solid #7747ff;
+                                  padding-top: 8px;
+                                  padding-bottom: 8px;
+                                  font-family: 'Inter', 'Arial';
+                                  font-size: 16px;
+                                  text-align: center;
+                                  mso-border-alt: none;
+                                  word-break: keep-all;
+                                "
+                                ><span
+                                  style="
+                                    padding-left: 20px;
+                                    padding-right: 20px;
+                                    font-size: 16px;
+                                    display: inline-block;
+                                    letter-spacing: normal;
+                                  "
+                                  ><span
+                                    style="
+                                      word-break: break-word;
+                                      line-height: 32px;
+                                    "
+                                    >Explore now</span
+                                  ></span
+                                ></a
+                              >
+
+                              <!--[if mso]></center></v:textbox></v:roundrect><![endif]-->
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table
+            class="row row-7"
+            align="center"
+            width="100%"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            role="presentation"
+            style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+          >
+            <tr>
+              <td>
+                <table
+                  class="row-content stack"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="
+                    mso-table-lspace: 0pt;
+                    mso-table-rspace: 0pt;
+                    border-radius: 0;
+                    color: #000000;
+                    width: 640px;
+                    margin: 0 auto;
+                  "
+                  width="640"
+                >
+                  <tr>
+                    <td
+                      class="column column-1"
+                      width="100%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-bottom: 5px;
+                        padding-top: 5px;
+                        vertical-align: top;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <div
+                        class="spacer_block block-1"
+                        style="height: 40px; line-height: 40px; font-size: 1px"
+                      >
+                        &#8202;
+                      </div>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+          <table
+            class="row row-8"
+            align="center"
+            width="100%"
+            border="0"
+            cellpadding="0"
+            cellspacing="0"
+            role="presentation"
+            style="
+              mso-table-lspace: 0pt;
+              mso-table-rspace: 0pt;
+              background-color: #fbf9ff;
+            "
+          >
+            <tr>
+              <td>
+                <table
+                  class="row-content stack"
+                  align="center"
+                  border="0"
+                  cellpadding="0"
+                  cellspacing="0"
+                  role="presentation"
+                  style="
+                    mso-table-lspace: 0pt;
+                    mso-table-rspace: 0pt;
+                    border-radius: 0;
+                    color: #000000;
+                    background-color: #fbf9ff;
+                    width: 640px;
+                    margin: 0 auto;
+                  "
+                  width="640"
+                >
+                  <tr>
+                    <td
+                      class="column column-1"
+                      width="100%"
+                      style="
+                        mso-table-lspace: 0pt;
+                        mso-table-rspace: 0pt;
+                        font-weight: 400;
+                        text-align: left;
+                        padding-bottom: 40px;
+                        padding-left: 20px;
+                        padding-right: 20px;
+                        padding-top: 40px;
+                        vertical-align: top;
+                        border-top: 0px;
+                        border-right: 0px;
+                        border-bottom: 0px;
+                        border-left: 0px;
+                      "
+                    >
+                      <table
+                        class="image_block block-1"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              width: 100%;
+                              padding-right: 0px;
+                              padding-left: 0px;
+                            "
+                          >
+                            <div
+                              class="alignment"
+                              align="center"
+                              style="line-height: 10px"
+                            >
+                              <div style="max-width: 190.933px">
+                                <a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=2XN5nhY5QkTwbgHwKqddcjQWDJscUcoF3Uq7pFaFBxsq&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3584"
+                                  target="_blank"
+                                  style="outline: none"
+                                  tabindex="-1"
+                                  ><img
+                                    src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/Transactional%20Set/beefree-mark.png"
+                                    style="
+                                      display: block;
+                                      height: auto;
+                                      border: 0;
+                                      width: 100%;
+                                    "
+                                    width="190.933"
+                                    alt="Beefree Logo"
+                                    title="Beefree Logo"
+                                /></a>
+                              </div>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="paragraph_block block-2"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          word-break: break-word;
+                        "
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="padding-bottom: 15px; padding-top: 15px"
+                          >
+                            <div
+                              style="
+                                color: #26045d;
+                                direction: ltr;
+                                font-family: 'Inter', 'Arial';
+                                font-size: 16px;
+                                font-weight: 700;
+                                letter-spacing: 0px;
+                                line-height: 150%;
+                                text-align: center;
+                                mso-line-height-alt: 24px;
+                              "
+                            >
+                              <p
+                                data-renderer-start-pos="276"
+                                style="margin: 0"
+                              >
+                                <strong data-renderer-mark="true"
+                                  >Email creation with no limits.</strong
+                                >
+                              </p>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="icons_block block-3"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              vertical-align: middle;
+                              color: #000000;
+                              font-family: inherit;
+                              font-size: 14px;
+                              font-weight: 400;
+                              letter-spacing: 0px;
+                              text-align: center;
+                            "
+                          >
+                            <table
+                              class="alignment"
+                              cellpadding="0"
+                              cellspacing="0"
+                              role="presentation"
+                              align="center"
+                              style="
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                              "
+                            >
+                              <tr>
+                                <td
+                                  style="
+                                    vertical-align: middle;
+                                    text-align: center;
+                                    padding-top: 5px;
+                                    padding-bottom: 5px;
+                                    padding-left: 5px;
+                                    padding-right: 8px;
+                                  "
+                                >
+                                  <a
+                                    href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cuZmFjZWJvb2suY29tJTJGYmVlZnJlZWlvJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=27NSro2zBYeUAp9WDSdBSWUsPEg6dwDfRQ21kYc9kJte&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3594"
+                                    target="_self"
+                                    style="text-decoration: none"
+                                    ><img
+                                      class="icon"
+                                      src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/Transactional%20Set/Facebook.png"
+                                      alt="Facebook logo"
+                                      height="32"
+                                      width="31"
+                                      align="center"
+                                      style="
+                                        display: block;
+                                        height: auto;
+                                        margin: 0 auto;
+                                        border: 0;
+                                      "
+                                  /></a>
+                                </td>
+                                <td
+                                  style="
+                                    vertical-align: middle;
+                                    text-align: center;
+                                    padding-top: 5px;
+                                    padding-bottom: 5px;
+                                    padding-left: 8px;
+                                    padding-right: 8px;
+                                  "
+                                >
+                                  <a
+                                    href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ0d2l0dGVyLmNvbSUyRmJlZWZyZWVpbyUzRnV0bV9zb3VyY2UlM0ROZXdzbGV0dGVyJTI2dXRtX21lZGl1bSUzRGVtYWlsJTI2dXRtX2NvbnRlbnQlM0QlMjVGMCUyNTlGJTI1OEUlMjU4OSUyQlJlYWR5LXRvLWdvJTJCTWFyY2glMkIyMDI0JTJCdGVtcGxhdGVzJTI1MjElMjZ1dG1fY2FtcGFpZ24lM0RNYXJjaC10ZW1wbGF0ZS0wOS0wMi0yMw==&sig=69rBA22SpdpTA5bXFy4h8Zq7TaYBfcfLVx3y9sd1xiYP&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3595"
+                                    target="_self"
+                                    style="text-decoration: none"
+                                    ><img
+                                      class="icon"
+                                      src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/Transactional%20Set/Twitter_1.png"
+                                      alt="Twitter logo"
+                                      height="32"
+                                      width="32"
+                                      align="center"
+                                      style="
+                                        display: block;
+                                        height: auto;
+                                        margin: 0 auto;
+                                        border: 0;
+                                      "
+                                  /></a>
+                                </td>
+                                <td
+                                  style="
+                                    vertical-align: middle;
+                                    text-align: center;
+                                    padding-top: 5px;
+                                    padding-bottom: 5px;
+                                    padding-left: 8px;
+                                    padding-right: 8px;
+                                  "
+                                >
+                                  <a
+                                    href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cuaW5zdGFncmFtLmNvbSUyRmJlZWZyZWUuaW8lMkYlM0Z1dG1fc291cmNlJTNETmV3c2xldHRlciUyNnV0bV9tZWRpdW0lM0RlbWFpbCUyNnV0bV9jb250ZW50JTNEJTI1RjAlMjU5RiUyNThFJTI1ODklMkJSZWFkeS10by1nbyUyQk1hcmNoJTJCMjAyNCUyQnRlbXBsYXRlcyUyNTIxJTI2dXRtX2NhbXBhaWduJTNETWFyY2gtdGVtcGxhdGUtMDktMDItMjM=&sig=Hi6xNqAxSbvpDXitAYwZ3tYbWM7AXK1TDWXAFNW7Fk5Q&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3596"
+                                    target="_self"
+                                    style="text-decoration: none"
+                                    ><img
+                                      class="icon"
+                                      src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/Transactional%20Set/Instagram.png"
+                                      alt="Instagram logo"
+                                      height="32"
+                                      width="31"
+                                      align="center"
+                                      style="
+                                        display: block;
+                                        height: auto;
+                                        margin: 0 auto;
+                                        border: 0;
+                                      "
+                                  /></a>
+                                </td>
+                                <td
+                                  style="
+                                    vertical-align: middle;
+                                    text-align: center;
+                                    padding-top: 5px;
+                                    padding-bottom: 5px;
+                                    padding-left: 8px;
+                                    padding-right: 8px;
+                                  "
+                                >
+                                  <a
+                                    href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cueW91dHViZS5jb20lMkZjaGFubmVsJTJGVUNob045OE9QbFA0dzBnUy1maWowdnNBJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=ErjCK9RpTyEuk8UgYBRy4aLkqWGdZ4V5FrrrU61fYiyU&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3597"
+                                    target="_self"
+                                    style="text-decoration: none"
+                                    ><img
+                                      class="icon"
+                                      src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/Transactional%20Set/YouTube.png"
+                                      alt="Youtube logo"
+                                      height="32"
+                                      width="31"
+                                      align="center"
+                                      style="
+                                        display: block;
+                                        height: auto;
+                                        margin: 0 auto;
+                                        border: 0;
+                                      "
+                                  /></a>
+                                </td>
+                                <td
+                                  style="
+                                    vertical-align: middle;
+                                    text-align: center;
+                                    padding-top: 5px;
+                                    padding-bottom: 5px;
+                                    padding-left: 8px;
+                                    padding-right: 8px;
+                                  "
+                                >
+                                  <a
+                                    href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cubGlua2VkaW4uY29tJTJGY29tcGFueSUyRmJlZS1lZGl0b3IlMkYlM0Z1dG1fc291cmNlJTNETmV3c2xldHRlciUyNnV0bV9tZWRpdW0lM0RlbWFpbCUyNnV0bV9jb250ZW50JTNEJTI1RjAlMjU5RiUyNThFJTI1ODklMkJSZWFkeS10by1nbyUyQk1hcmNoJTJCMjAyNCUyQnRlbXBsYXRlcyUyNTIxJTI2dXRtX2NhbXBhaWduJTNETWFyY2gtdGVtcGxhdGUtMDktMDItMjM=&sig=FKv7u7ZQpjptqv7ujZu4xSvd4NwGLmZFqPdxkR6hPmvV&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3598"
+                                    target="_self"
+                                    style="text-decoration: none"
+                                    ><img
+                                      class="icon"
+                                      src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/Transactional%20Set/LinkedIn.png"
+                                      alt="Linkedin logo"
+                                      height="32"
+                                      width="31"
+                                      align="center"
+                                      style="
+                                        display: block;
+                                        height: auto;
+                                        margin: 0 auto;
+                                        border: 0;
+                                      "
+                                  /></a>
+                                </td>
+                                <td
+                                  style="
+                                    vertical-align: middle;
+                                    text-align: center;
+                                    padding-top: 5px;
+                                    padding-bottom: 5px;
+                                    padding-left: 8px;
+                                    padding-right: 5px;
+                                  "
+                                >
+                                  <a
+                                    href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cuZzIuY29tJTJGcHJvZHVjdHMlMkZiZWVmcmVlLWJlZWZyZWUlMkZyZXZpZXdzJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=Heiz6NWNj22NL7A7f3iVA3hoYbBeWSGYNKSqdEPNU4yr&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3599"
+                                    target="_self"
+                                    style="text-decoration: none"
+                                    ><img
+                                      class="icon"
+                                      src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/g2_logo.png"
+                                      alt="G2 logo"
+                                      height="32"
+                                      width="31"
+                                      align="center"
+                                      style="
+                                        display: block;
+                                        height: auto;
+                                        margin: 0 auto;
+                                        border: 0;
+                                      "
+                                  /></a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="paragraph_block block-4"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          word-break: break-word;
+                        "
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="padding-bottom: 15px; padding-top: 15px"
+                          >
+                            <div
+                              style="
+                                color: #444a5b;
+                                direction: ltr;
+                                font-family: 'Inter', 'Arial';
+                                font-size: 14px;
+                                font-weight: 400;
+                                letter-spacing: 0px;
+                                line-height: 150%;
+                                text-align: center;
+                                mso-line-height-alt: 21px;
+                              "
+                            >
+                              <p style="margin: 0">
+                                <a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGYmxvZyUzRnV0bV9zb3VyY2UlM0ROZXdzbGV0dGVyJTI2dXRtX21lZGl1bSUzRGVtYWlsJTI2dXRtX2NvbnRlbnQlM0QlMjVGMCUyNTlGJTI1OEUlMjU4OSUyQlJlYWR5LXRvLWdvJTJCTWFyY2glMkIyMDI0JTJCdGVtcGxhdGVzJTI1MjElMjZ1dG1fY2FtcGFpZ24lM0RNYXJjaC10ZW1wbGF0ZS0wOS0wMi0yMw==&sig=FE7ZyACuLvnUQCgNuUKM6A79kdLBcz21LsxDLcaYNZ6P&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3634"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: underline;
+                                    color: #7747ff;
+                                  "
+                                  rel="noopener"
+                                  >Read our blog</a
+                                >
+                                |
+                                <a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=2XN5nhY5QkTwbgHwKqddcjQWDJscUcoF3Uq7pFaFBxsq&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3584"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: underline;
+                                    color: #7747ff;
+                                  "
+                                  rel="noopener"
+                                  >beefree.io</a
+                                >
+                              </p>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="paragraph_block block-5"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="
+                          mso-table-lspace: 0pt;
+                          mso-table-rspace: 0pt;
+                          word-break: break-word;
+                        "
+                      >
+                        <tr>
+                          <td class="pad" style="padding-bottom: 15px">
+                            <div
+                              style="
+                                color: #444a5b;
+                                direction: ltr;
+                                font-family: 'Inter', 'Arial';
+                                font-size: 12px;
+                                font-weight: 400;
+                                letter-spacing: 0px;
+                                line-height: 180%;
+                                text-align: center;
+                                mso-line-height-alt: 21.6px;
+                              "
+                            >
+                              <p style="margin: 0">
+                                You received this message because
+                                hello@SmilesDavis.yeah&nbsp;signed up for a
+                                Beefree account on beefree.io. <br />If you no
+                                longer wish to receive our messages you can
+                                <a
+                                  href="#"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: underline;
+                                    color: #444a5b;
+                                  "
+                                  rel="noopener"
+                                  >unsubscribe</a
+                                >.<br />If you have any questions,
+                                <a
+                                  href="mailto:yes-reply@beefree.io"
+                                  target="_blank"
+                                  rel="noopener"
+                                  title="yes-reply@beefree.io"
+                                  style="
+                                    text-decoration: underline;
+                                    color: #444a5b;
+                                  "
+                                  >drop us a line</a
+                                >.<br /><br /><a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGcHJpdmFjeS1wb2xpY3klM0Z1dG1fc291cmNlJTNETmV3c2xldHRlciUyNnV0bV9tZWRpdW0lM0RlbWFpbCUyNnV0bV9jb250ZW50JTNEJTI1RjAlMjU5RiUyNThFJTI1ODklMkJSZWFkeS10by1nbyUyQk1hcmNoJTJCMjAyNCUyQnRlbXBsYXRlcyUyNTIxJTI2dXRtX2NhbXBhaWduJTNETWFyY2gtdGVtcGxhdGUtMDktMDItMjM=&sig=5SwUAhXr7zxXhbc524tLqNdjQtjpB3MooRnTy9nFxzTQ&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3601"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: underline;
+                                    color: #444a5b;
+                                  "
+                                  rel="noopener"
+                                  >Privacy Policy</a
+                                >
+                                |
+                                <a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGZ2Rwci1jb21wbGlhbmNlJTJGJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=Ehz5tkVCBJeUb7ysu2g9EzU3BTBV9D9V7S5W3vhXxMrC&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3602"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: underline;
+                                    color: #444a5b;
+                                  "
+                                  rel="noopener"
+                                  >GDPR</a
+                                >
+                                |
+                                <a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGdGVybXMtb2Ytc2VydmljZSUzRnV0bV9zb3VyY2UlM0ROZXdzbGV0dGVyJTI2dXRtX21lZGl1bSUzRGVtYWlsJTI2dXRtX2NvbnRlbnQlM0QlMjVGMCUyNTlGJTI1OEUlMjU4OSUyQlJlYWR5LXRvLWdvJTJCTWFyY2glMkIyMDI0JTJCdGVtcGxhdGVzJTI1MjElMjZ1dG1fY2FtcGFpZ24lM0RNYXJjaC10ZW1wbGF0ZS0wOS0wMi0yMw==&sig=7LtuZRUdvFQdNe3JTXtq2ECvmH1RUPzZW9khVy79auSM&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3603"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: underline;
+                                    color: #444a5b;
+                                  "
+                                  rel="noopener"
+                                  >Terms of Service</a
+                                ><br />@ BEE Content Design Inc, San Francisco,
+                                CA, United States&nbsp;| Part of
+                                <a
+                                  href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZ3d3cuZ3Jvd2Vucy5pbyUyRmVuJTJGJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=FQsKRBid6tpyQ2MtJtAiSWGxg6xZoJvnHhJweSh3Zyi3&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3604"
+                                  target="_blank"
+                                  style="
+                                    text-decoration: underline;
+                                    color: #444a5b;
+                                  "
+                                  rel="noopener"
+                                  >Growens</a
+                                >
+                              </p>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="icons_block block-6"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              vertical-align: middle;
+                              color: #000000;
+                              font-family: inherit;
+                              font-size: 14px;
+                              font-weight: 400;
+                              letter-spacing: 0px;
+                              text-align: center;
+                            "
+                          >
+                            <table
+                              class="alignment"
+                              cellpadding="0"
+                              cellspacing="0"
+                              role="presentation"
+                              align="center"
+                              style="
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                              "
+                            >
+                              <tr>
+                                <td
+                                  style="
+                                    vertical-align: middle;
+                                    text-align: center;
+                                    padding-top: 5px;
+                                    padding-bottom: 5px;
+                                    padding-left: 5px;
+                                    padding-right: 8px;
+                                  "
+                                >
+                                  <img
+                                    class="icon"
+                                    src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/EmailTemplateBuilder_HighPerformer_Enterprise_HighPerformer.png"
+                                    alt="High Performer - G2 badge"
+                                    height="64"
+                                    width="49"
+                                    align="center"
+                                    style="
+                                      display: block;
+                                      height: auto;
+                                      margin: 0 auto;
+                                      border: 0;
+                                    "
+                                  />
+                                </td>
+                                <td
+                                  style="
+                                    vertical-align: middle;
+                                    text-align: center;
+                                    padding-top: 5px;
+                                    padding-bottom: 5px;
+                                    padding-left: 8px;
+                                    padding-right: 8px;
+                                  "
+                                >
+                                  <img
+                                    class="icon"
+                                    src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/EmailTemplateBuilder_EasiestToUse_Enterprise_EaseOfUse.png"
+                                    alt="Easiest to Use - G2 badge"
+                                    height="64"
+                                    width="49"
+                                    align="center"
+                                    style="
+                                      display: block;
+                                      height: auto;
+                                      margin: 0 auto;
+                                      border: 0;
+                                    "
+                                  />
+                                </td>
+                                <td
+                                  style="
+                                    vertical-align: middle;
+                                    text-align: center;
+                                    padding-top: 5px;
+                                    padding-bottom: 5px;
+                                    padding-left: 8px;
+                                    padding-right: 5px;
+                                  "
+                                >
+                                  <img
+                                    class="icon"
+                                    src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/EmailTemplateBuilder_BestResults_Total_1.png"
+                                    alt="Best Results - G2 badge"
+                                    height="64"
+                                    width="49"
+                                    align="center"
+                                    style="
+                                      display: block;
+                                      height: auto;
+                                      margin: 0 auto;
+                                      border: 0;
+                                    "
+                                  />
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="divider_block block-7"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="padding-bottom: 30px; padding-top: 20px"
+                          >
+                            <div class="alignment" align="center">
+                              <table
+                                border="0"
+                                cellpadding="0"
+                                cellspacing="0"
+                                role="presentation"
+                                width="100%"
+                                style="
+                                  mso-table-lspace: 0pt;
+                                  mso-table-rspace: 0pt;
+                                "
+                              >
+                                <tr>
+                                  <td
+                                    class="divider_inner"
+                                    style="
+                                      font-size: 1px;
+                                      line-height: 1px;
+                                      border-top: 1px solid #e4daff;
+                                    "
+                                  >
+                                    <span>&#8202;</span>
+                                  </td>
+                                </tr>
+                              </table>
+                            </div>
+                          </td>
+                        </tr>
+                      </table>
+                      <table
+                        class="icons_block block-8"
+                        width="100%"
+                        border="0"
+                        cellpadding="0"
+                        cellspacing="0"
+                        role="presentation"
+                        style="mso-table-lspace: 0pt; mso-table-rspace: 0pt"
+                      >
+                        <tr>
+                          <td
+                            class="pad"
+                            style="
+                              vertical-align: middle;
+                              color: #7747ff;
+                              font-family: inherit;
+                              font-size: 14px;
+                              font-weight: 400;
+                              letter-spacing: 0px;
+                              text-align: center;
+                            "
+                          >
+                            <table
+                              width="100%"
+                              cellpadding="0"
+                              cellspacing="0"
+                              role="presentation"
+                              style="
+                                mso-table-lspace: 0pt;
+                                mso-table-rspace: 0pt;
+                              "
+                            >
+                              <tr>
+                                <td
+                                  class="alignment"
+                                  style="
+                                    vertical-align: middle;
+                                    text-align: center;
+                                  "
+                                >
+                                  <!--[if vml]><table align="center" cellpadding="0" cellspacing="0" role="presentation" style="display:inline-block;padding-left:0px;padding-right:0px;mso-table-lspace: 0pt;mso-table-rspace: 0pt;"><![endif]-->
+
+                                  <!--[if !vml]>
+
+<!-->
+                                  <table
+                                    class="icons-inner"
+                                    style="
+                                      mso-table-lspace: 0pt;
+                                      mso-table-rspace: 0pt;
+                                      display: inline-block;
+                                      margin-right: -4px;
+                                      padding-left: 0px;
+                                      padding-right: 0px;
+                                    "
+                                    cellpadding="0"
+                                    cellspacing="0"
+                                    role="presentation"
+                                  >
+                                    <!--<![endif]-->
+                                    <tr>
+                                      <td
+                                        style="
+                                          vertical-align: middle;
+                                          text-align: center;
+                                          padding-top: 5px;
+                                          padding-bottom: 5px;
+                                          padding-left: 5px;
+                                          padding-right: 10px;
+                                        "
+                                      >
+                                        <a
+                                          href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=2XN5nhY5QkTwbgHwKqddcjQWDJscUcoF3Uq7pFaFBxsq&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3584"
+                                          target="_self"
+                                          style="text-decoration: none"
+                                          ><img
+                                            class="icon"
+                                            src="https://d15k2d11r6t6rl.cloudfront.net/public/users/Integrators/BeeProAgency/53601_551533/Transactional%20Set/beefree_mark.png"
+                                            height="16"
+                                            width="17"
+                                            align="center"
+                                            style="
+                                              display: block;
+                                              height: auto;
+                                              margin: 0 auto;
+                                              border: 0;
+                                            "
+                                        /></a>
+                                      </td>
+                                      <td
+                                        style="
+                                          font-family: Inter, Arial;
+                                          font-size: 14px;
+                                          font-weight: 400;
+                                          color: #7747ff;
+                                          vertical-align: middle;
+                                          letter-spacing: normal;
+                                          text-align: center;
+                                        "
+                                      >
+                                        <a
+                                          href="https://beefree4535.lt.acemlnc.com/Prod/link-tracker?redirectUrl=aHR0cHMlM0ElMkYlMkZiZWVmcmVlLmlvJTJGJTNGdXRtX3NvdXJjZSUzRE5ld3NsZXR0ZXIlMjZ1dG1fbWVkaXVtJTNEZW1haWwlMjZ1dG1fY29udGVudCUzRCUyNUYwJTI1OUYlMjU4RSUyNTg5JTJCUmVhZHktdG8tZ28lMkJNYXJjaCUyQjIwMjQlMkJ0ZW1wbGF0ZXMlMjUyMSUyNnV0bV9jYW1wYWlnbiUzRE1hcmNoLXRlbXBsYXRlLTA5LTAyLTIz&sig=2XN5nhY5QkTwbgHwKqddcjQWDJscUcoF3Uq7pFaFBxsq&iat=1707494893&a=%7C%7C28254630%7C%7C&account=beefree4535%2Eactivehosted%2Ecom&email=vKs5gLixCnf7HpyucP5ZET4hg8XsDQ%2BcCl%2FCcfAH%2F4QbTQTiRDCrk2M%3D%3A0ZiF3XxHMvheWnv2F7McwcumR%2FwNpJi9&s=03de84f868d67254d4329d0115ff2419&i=193A2547A2A3584"
+                                          target="_self"
+                                          style="
+                                            color: #7747ff;
+                                            text-decoration: none;
+                                          "
+                                          >Designed with Beefree</a
+                                        >
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <!-- End -->
+  </body>
+</html>

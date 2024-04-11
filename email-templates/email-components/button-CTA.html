@@ -1,0 +1,21 @@
+<a
+  href="htts://parcel.io"
+  style="
+    background-color: #1781ec;
+    color: #fcfdff;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0.5em 2em;
+    mso-padding-alt: 0;
+    text-underline-color: #005959;
+  "
+  >><!--[if mso]><i style="mso-font-width:200%;mso-text-raise:100%">&#8203;&emsp;</i><span style="mso-text-raise:50%;"><!
+  [endif]-->My link text<!--[if mso]></span><i style="mso-font-width:200%;">&emsp;&#8203;</i><![endif]-->
+</a>
+<!-- Using inline-block for padding to take effect -->
+<!-- Windows Outlook reset padding mso-padding-alt:0; setting link underline to same as background color since text-decoration is not respected -->
+<!-- Zero width space &#8203; lets &emsp; 1em width to push against to create padding -->
+<!-- mso-font-width:200%;. 200% of 1em = 2em sets 2em of padding. mso-font-width has maximum value is 500%, if you want wider than that, add 2 or more &emsp; characters and calculate the value you need -->
+<!-- Bottom padding add <span style="mso-text-raise:50%;"> around our text. mso-text-raise works like padding-bottom and the percentage is based of the font size. 50% of 1em = 0.5em -->
+<!-- For top padding add together values of top and bottom padding .5em + .5em = 1em apply that using mso-text-raise to one of the <i> elements mso-text-raise:100%. This is only added on the bottom, it gives the same effect as top padding and as the &#8203;&emsp; characters are not visible.
+In Windows Outlook make sure there are no spaces between the <a>, <i> and <span> elements so no extra space is added -->
