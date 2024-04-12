@@ -121,6 +121,7 @@ It is best to target all versions of Outlook using `<!--[if mso]>`, but sometime
 ### Conditional logic
 Using operators allows for targeting multiple Outlook versions.
 | Code | Description              | Example                                                            |
+| ---- | ------------------------ | ------------------------------------------------------------------ |
 | gt   | greater than             | <!--[if gt mso 14]> Everything above Outlook 2010 <![endif]-->     |
 | lt   | less than                | <!--[if lt mso 14]> Everything below Outlook 2010 <![endif]-->     |
 | gte  | greater than or equal to | <!--[if gte mso 14]> Outlook 2010 and above <![endif]-->           |
